@@ -20,10 +20,12 @@ public class Pokoj {
 
     public void posprzataj() {
         if(lozko == null) {
+            System.out.println("Nie ma co sprzątać");
             return;
         }
 
         lozko.wymienPosciel();
+        otworzOkna();
         sprzatnietyPokoj = true;
     }
 
@@ -31,5 +33,16 @@ public class Pokoj {
         for(Okno okno : okna) {
             okno.otworzOkno();
         }
+    }
+
+
+    @Override
+    public String toString() {
+        if(lozko == null || okna == null) {
+            return "Ten pokoj jest pusty";
+        }
+
+        return sprzatnietyPokoj ? "Posprzątane, łóżko ścielone " + lozko.getDniOdOstatniejZmianyPoscieli() + " dni temu. W pokoju są " + okna.length + " okna" :
+                                    "Nie jest posprzątane, łóżko ścielone " + lozko.getDniOdOstatniejZmianyPoscieli() + " dni temu. W pokoju są " + okna.length + " okna";
     }
 }
