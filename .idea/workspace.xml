@@ -4,25 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien1/zad1/Samochod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien1/zad1/SamochodDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien1/zad2/FabrykaLinii.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien1/zad2/Linia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien1/zad2/LinieDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien1/zad2/Prostokat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien1/zad2/ProstokatDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien2/PBudowlanka/Blok.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien2/PBudowlanka/BlokDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien2/PBudowlanka/Mieszkanie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien2/PBudowlanka/SerwisSpoldzielni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Extra/OOP/Zad1/Point2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Extra/OOP/Zad2/Person.java" afterDir="false" />
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="new tasks and assignments">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/Dom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/DomDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/Lozko.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/Okno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/Pokoj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +25,13 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -113,6 +107,14 @@
       <option name="presentableId" value="Default" />
       <updated>1656344607841</updated>
     </task>
+    <task id="LOCAL-00001" summary="new tasks and assignments">
+      <created>1656437356788</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656437356788</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,5 +127,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new tasks and assignments" />
+    <option name="LAST_COMMIT_MESSAGE" value="new tasks and assignments" />
   </component>
 </project>
