@@ -15,6 +15,6 @@ public class Linia {
 
     @Override
     public String toString() {
-        return "Wypełnienie: " + wypelnienie + "\nDługość: " + dlugosc;
+        return "Wypelnienie: " + "'" + wypelnienie + "'" + " | Dlugosc: " + dlugosc + "\n";
     }
 }

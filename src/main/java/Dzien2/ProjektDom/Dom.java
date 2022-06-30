@@ -1,5 +1,7 @@
 package Dzien2.ProjektDom;
 
+import java.util.Arrays;
+
 public class Dom {
     private Pokoj[] pokoje;
 
@@ -19,11 +21,7 @@ public class Dom {
 
     @Override
     public String toString() {
-        String details = "";
-        for(Pokoj pokoj : pokoje) {
-            details += pokoj.toString() + "\n";
-        }
 
-        return details;
+        return Arrays.toString(pokoje);
     }
 }

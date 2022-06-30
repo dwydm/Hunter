@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="dodanie klas wprojekcie Dom">
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="dodane toString">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien1/zad2/FabrykaLinii.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dzien1/zad2/FabrykaLinii.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien1/zad2/Linia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dzien1/zad2/Linia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien1/zad2/LinieDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dzien1/zad2/LinieDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/Dom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/Dom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/DomDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/DomDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/Lozko.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/Lozko.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/Pokoj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/Pokoj.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DomDemo">
+  <component name="RunManager" selected="Application.LinieDemo">
     <configuration name="DomDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Dzien2.ProjektDom.DomDemo" />
       <module name="Advanced_SDA" />
@@ -104,10 +104,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinieDemo" />
         <item itemvalue="Application.DomDemo" />
-        <item itemvalue="Application.Dzien1.zad2.LinieDemo" />
-        <item itemvalue="Application.Dzien1.zad2.ProstokatDemo" />
-        <item itemvalue="Application.Dzien1.zad1.SamochodDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656439277286</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="dodane toString">
+      <created>1656441395831</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656441395831</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,6 +156,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new tasks and assignments" />
     <MESSAGE value="dodanie klas wprojekcie Dom" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodanie klas wprojekcie Dom" />
+    <MESSAGE value="dodane toString" />
+    <option name="LAST_COMMIT_MESSAGE" value="dodane toString" />
   </component>
 </project>

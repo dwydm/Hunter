@@ -3,32 +3,34 @@ package Dzien1.zad2;
 import java.util.Random;
 
 public class FabrykaLinii {
-    private static int fixedLength = 2;
+    private static int fixedLength = 1;
 
-    public Linia randomLengthLine(String wypenienie) {
+    public Linia createLineRandomLength(String wypenienie) {
         Random rnd = new Random();
-        return new Linia(wypenienie, rnd.nextInt(100));
+        return new Linia(wypenienie, (char)rnd.nextInt(100));
     }
 
-    public Linia randomCharLine(int length) {
+    public Linia createLineRandomChar(int length) {
         Random rnd = new Random();
-        return null;
+        return new Linia(String.valueOf((char) (rnd.nextInt(94) + 33)), length);
     }
 
-    public String randomLengthAndChar() {
+    public Linia createLineRandomCharAndLength() {
         Random rnd = new Random();
-        return String.valueOf((char)rnd.nextInt(127)).repeat(rnd.nextInt(100));
+        return new Linia(String.valueOf((char) rnd.nextInt(127)), rnd.nextInt(100));
     }
 
-    public void printLinesOfRandomValue(int numberOfLines) {
+    public Linia[] createArrayOfRandomLines(int numberOfLines) {
+        Linia[] linie = new Linia[numberOfLines];
         for (int i = 0; i < numberOfLines; i++) {
-            System.out.println(randomLengthAndChar());
+            linie[i] = createLineRandomCharAndLength();
         }
+        return linie;
     }
 
-    public void printLineWithFixedLength() {
-        System.out.println(randomCharLine(fixedLength));
+    public Linia createLineRandomCharGeometricalLengthIncrease() {
         fixedLength *= 2;
+        return createLineRandomChar(fixedLength);
 
     }
 }
