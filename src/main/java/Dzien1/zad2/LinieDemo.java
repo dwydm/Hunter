@@ -6,6 +6,8 @@ public class LinieDemo {
     public static void main(String[] args) {
         FabrykaLinii fabrl = new FabrykaLinii();
 
+        //test
+
         System.out.println("\nrandomLengthLine");
         System.out.println(fabrl.createLineRandomLength("?"));
         System.out.println("\nrandomCharLine");

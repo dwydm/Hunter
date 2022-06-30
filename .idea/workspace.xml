@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="dodane toString">
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="poprawki w klasie Linia i FabrykaLinii, FabrykaLinii zwraca teraz obiekt Linia">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/StanOkna.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien1/zad2/FabrykaLinii.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dzien1/zad2/FabrykaLinii.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien1/zad2/Linia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dzien1/zad2/Linia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Dzien1/zad2/LinieDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dzien1/zad2/LinieDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/Dom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/Dom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/DomDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/DomDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/Okno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/Okno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/Pokoj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/Pokoj.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -49,7 +52,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LinieDemo">
+  <component name="RunManager" selected="Application.DomDemo">
     <configuration name="DomDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Dzien2.ProjektDom.DomDemo" />
       <module name="Advanced_SDA" />
@@ -104,8 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LinieDemo" />
         <item itemvalue="Application.DomDemo" />
+        <item itemvalue="Application.LinieDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656441395831</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="poprawki w klasie Linia i FabrykaLinii, FabrykaLinii zwraca teraz obiekt Linia">
+      <created>1656592436871</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656592436871</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +167,7 @@
     <MESSAGE value="new tasks and assignments" />
     <MESSAGE value="dodanie klas wprojekcie Dom" />
     <MESSAGE value="dodane toString" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodane toString" />
+    <MESSAGE value="poprawki w klasie Linia i FabrykaLinii, FabrykaLinii zwraca teraz obiekt Linia" />
+    <option name="LAST_COMMIT_MESSAGE" value="poprawki w klasie Linia i FabrykaLinii, FabrykaLinii zwraca teraz obiekt Linia" />
   </component>
 </project>

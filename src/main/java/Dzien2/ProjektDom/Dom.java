@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class Dom {
     private Pokoj[] pokoje;
+    private boolean posprzatanyDom;
 
     public Dom(Pokoj...pokoje) {
         this.pokoje = pokoje;
@@ -19,9 +20,16 @@ public class Dom {
         }
     }
 
+    public void sprzatnijDom() {
+        for (Pokoj pokoj : pokoje) {
+            pokoj.posprzataj();
+        }
+
+        posprzatanyDom = true;
+    }
+
     @Override
     public String toString() {
-
         return Arrays.toString(pokoje);
     }
 }

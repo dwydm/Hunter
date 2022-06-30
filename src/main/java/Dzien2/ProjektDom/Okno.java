@@ -2,28 +2,28 @@ package Dzien2.ProjektDom;
 
 public class Okno {
 
-    private boolean otwarteOkno;
+    private StanOkna stanOkna = StanOkna.ZAMKNIETE;
 
 
 
     public void otworzOkno(){
-        if(otwarteOkno) {
+        if(stanOkna.czyOtwarte) {
             System.out.println("Okno jest już otwarte");
         } else {
-            otwarteOkno = true;
+            stanOkna = StanOkna.OTWARTE;
         }
     }
 
     public void zamknijOnko() {
-        if(!otwarteOkno) {
+        if(!stanOkna.czyOtwarte) {
             System.out.println("Bardziej się nie zamknie");
         } else {
-            otwarteOkno = false;
+            stanOkna = StanOkna.ZAMKNIETE;
         }
     }
 
     @Override
     public String toString() {
-        return "Status okna: " + otwarteOkno;
+        return "Status okna: " + stanOkna;
     }
 }
