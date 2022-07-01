@@ -19,10 +19,11 @@ public class Car {
         int flattenTires = rnd.nextInt(5)+1;
 
         while (flattenTires > 0) {
-            if (wheels[rnd.nextInt(wheels.length)].isDamaged()) {
+            int wheelNumber = rnd.nextInt(wheels.length);
+            if (wheels[wheelNumber].isDamaged()) {
                 continue;
             } else {
-                wheels[rnd.nextInt(wheels.length)].damageTire();
+                wheels[wheelNumber].damageTire();
                 flattenTires--;
             }
         }
