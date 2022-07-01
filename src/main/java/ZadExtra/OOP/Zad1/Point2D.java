@@ -1,4 +1,4 @@
-package Extra.OOP.Zad1;
+package ZadExtra.OOP.Zad1;
 
 public class Point2D {
     private float x;
