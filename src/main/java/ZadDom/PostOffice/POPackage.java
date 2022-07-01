@@ -22,7 +22,7 @@ public class POPackage {
 
         weightInGrams = rnd.nextInt(100_001) + 1;
 
-        if(rnd.nextInt(10) >= 7) {
+        if (rnd.nextInt(10) >= 7) {
             priority = true;
         }
 
@@ -45,14 +45,14 @@ public class POPackage {
 
     public double calculateTotalMailingCost() {
         double mailingCost = calculateMailingCost();
-        if(priority) {
+        if (priority) {
             return mailingCost + mailingCost * 0.1;
         }
         return mailingCost;
     }
 
     private double calculateMailingCost() {
-        if(weightInGrams <= 500) {
+        if (weightInGrams <= 500) {
             return 5.0;
         } else if (weightInGrams <= 1000) {
             return 8.0;
@@ -64,4 +64,22 @@ public class POPackage {
     }
 
 
+    @Override
+    public String toString() {
+        String stringOutput;
+        if(weightInGrams >= 1000) {
+            String weightInKilos = String.format("%.1f", weightInGrams * 0.001);
+            stringOutput = "Sender: " + sender +
+                    " | Recipient: " + recipient +
+                    " | Weight: " + weightInKilos + "kg" +
+                    " | Mailing cost: " + calculateTotalMailingCost() + " PLN";
+        } else {
+            stringOutput = "Sender: " + sender +
+                    " | Recipient: " + recipient +
+                    " | Weight: " + weightInGrams + " grams" +
+                    " | Mailing cost: " + calculateTotalMailingCost() + " PLN";
+        }
+
+        return priority ? "Priority package: " + stringOutput : "Package: " + stringOutput;
+    }
 }
