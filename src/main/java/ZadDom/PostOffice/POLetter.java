@@ -6,13 +6,13 @@ public class POLetter {
     private boolean priority;
     private DeliveryStatus letterStatus = DeliveryStatus.SUBMITTED;
 
-    public POLetter (Address senderAddress, Address recipientAddress) {
+    public POLetter(Address senderAddress, Address recipientAddress) {
         this.senderAddress = senderAddress;
         this.recipientAddress = recipientAddress;
 
     }
 
-    public POLetter (Address senderAddress, Address recipientAddress, boolean priority) {
+    public POLetter(Address senderAddress, Address recipientAddress, boolean priority) {
         this(senderAddress, recipientAddress);
         this.priority = priority;
     }
@@ -32,7 +32,7 @@ public class POLetter {
 
     @Override
     public String toString() {
-        String letterOutput = "From: " + senderAddress.toString() + " To: " + recipientAddress.toString();
+        String letterOutput = "From: " + senderAddress.toString() + " To: " + recipientAddress.toString() + " Status: " + letterStatus;
 
         return priority ? "Priority letter " + letterOutput : "Letter " + letterOutput;
     }

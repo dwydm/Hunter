@@ -82,7 +82,7 @@ public class POPackage {
     @Override
     public String toString() {
         String stringOutput;
-        if(weightInGrams >= 1000) {
+        if (weightInGrams >= 1000) {
             String weightInKilos = String.format("%.1f", weightInGrams * 0.001);
             stringOutput = "Sender: " + sender +
                     " | Recipient: " + recipient +
@@ -95,6 +95,6 @@ public class POPackage {
                     " | Mailing cost: " + calculateTotalMailingCost() + " PLN";
         }
 
-        return priority ? "Priority package status: "+ getPackageStatus() + " | " + stringOutput : "Package status: " + getPackageStatus() + " | " + stringOutput;
+        return priority ? "Priority package status: " + getPackageStatus() + " | " + stringOutput : "Package status: " + getPackageStatus() + " | " + stringOutput;
     }
 }

@@ -12,7 +12,7 @@ public class PostOffice {
     public double sendAPackage(double money, POPackage poPackage) {
         double mailingCost = poPackage.calculateTotalMailingCost();
 
-        if(money < mailingCost) {
+        if (money < mailingCost) {
             System.out.println("Provided insufficient amount of money");
             return money;
         }
@@ -23,13 +23,13 @@ public class PostOffice {
     }
 
     public double sendLetter(double money, POLetter poLetter) {
-        if(isLetterBoxFull) {
+        if (isLetterBoxFull) {
             System.out.println("Sorry, this post office has reached it's maximum 10 letters / day limit");
             return money;
         }
 
         double mailingCost = poLetter.calculateLetterCost();
-        if(mailingCost > money) {
+        if (mailingCost > money) {
             System.out.println("Provided insufficient amount of money");
             return money;
         }
@@ -39,13 +39,26 @@ public class PostOffice {
         return money - mailingCost;
     }
 
+    public void sendPostman() {
+        System.out.println("Postman went to deliver your mail");
+        for (int i = 0; i < letterBox.length; i++) {
+            if(letterBox[i] != null) {
+                letterBox[i].setLetterStatus(DeliveryStatus.SENT);
+                System.out.println(letterBox[i]);
+                letterBox[i] = null;
+            }
+        }
+        System.out.println("Post office limit has been cleared, you may send more letters now");
+    }
+
     private void placeLetterInTheBox(POLetter poLetter) {
         for (int i = 0; i < letterBox.length; i++) {
-            if(letterBox[i] == null && i == letterBox.length - 1) {
+            if (letterBox[i] == null && i == letterBox.length - 1) {
                 letterBox[i] = poLetter;
                 isLetterBoxFull = true;
             } else if (letterBox[i] == null) {
                 letterBox[i] = poLetter;
+                break;
             }
 
         }
@@ -57,7 +70,7 @@ public class PostOffice {
     }
 
     public POPackage checkLastPackage() {
-        if(lastPackage.isEmpty()) {
+        if (lastPackage.isEmpty()) {
             System.out.println("No packages in Post Office history");
             return null;
         }
