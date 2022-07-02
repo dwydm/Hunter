@@ -11,6 +11,7 @@ public class POPackage {
     private String recipient;
     private int weightInGrams;
     private boolean priority;
+    private DeliveryStatus packageStatus = DeliveryStatus.CREATED;
 
     public POPackage() {
         Random rnd = new Random();
@@ -26,10 +27,12 @@ public class POPackage {
             priority = true;
         }
 
+
     }
 
     public POPackage(String sender, String recipient, int weightInGrams) {
         if (sender == null || sender.isEmpty() || recipient == null || recipient.isEmpty()) {
+            setPackageStatus(DeliveryStatus.DELETED);
             System.out.println("Sender or Recipient field cannot be empty");
             return;
         } else if (weightInGrams < 1 || weightInGrams > 100_000) {
@@ -41,6 +44,11 @@ public class POPackage {
         this.recipient = recipient;
         this.weightInGrams = weightInGrams;
 
+    }
+
+    public POPackage(String sender, String recipient, int weightInGrams, boolean priority) {
+        this(sender, recipient, weightInGrams);
+        this.priority = priority;
     }
 
     public double calculateTotalMailingCost() {
@@ -63,6 +71,13 @@ public class POPackage {
         }
     }
 
+    public DeliveryStatus getPackageStatus() {
+        return packageStatus;
+    }
+
+    public void setPackageStatus(DeliveryStatus packageStatus) {
+        this.packageStatus = packageStatus;
+    }
 
     @Override
     public String toString() {
@@ -80,6 +95,6 @@ public class POPackage {
                     " | Mailing cost: " + calculateTotalMailingCost() + " PLN";
         }
 
-        return priority ? "Priority package: " + stringOutput : "Package: " + stringOutput;
+        return priority ? "Priority package status: "+ getPackageStatus() + " | " + stringOutput : "Package status: " + getPackageStatus() + " | " + stringOutput;
     }
 }

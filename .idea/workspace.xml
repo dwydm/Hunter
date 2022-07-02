@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Poczta part 1">
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Rozbudowa demo w main, nadpisano toString w klasie POPackage">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ZadDom/PostOffice/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ZadDom/PostOffice/DeliveryStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ZadDom/PostOffice/POLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ZadDom/PostOffice/PostOffice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ZadDom/PostOffice/POPackage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ZadDom/PostOffice/POPackage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ZadDom/PostOffice/PostOfficeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ZadDom/PostOffice/PostOfficeDemo.java" afterDir="false" />
@@ -17,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
       </list>
@@ -49,7 +54,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PostOfficeDemo">
+  <component name="RunManager" selected="Application.ZadDom.PostOffice.PostOfficeDemo">
     <configuration name="DomDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Dzien2.ProjektDom.DomDemo" />
       <module name="Advanced_SDA" />
@@ -117,7 +122,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PostOfficeDemo" />
+        <item itemvalue="Application.ZadDom.PostOffice.PostOfficeDemo" />
         <item itemvalue="Application.WorkshopDemo" />
         <item itemvalue="Application.SamochodDemo" />
         <item itemvalue="Application.LinieDemo" />
