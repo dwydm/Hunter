@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Dodana funkcja listonosza, skrzynki przechowującej listy oraz poprawiono zmiany statusów">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ZadExtra/OOP/Highway/CarType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ZadExtra/OOP/Highway/Highway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ZadExtra/OOP/Highway/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ZadExtra/OOP/Highway/VehicleInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ZadExtra/OOP/Highway/zadanie" afterDir="false" />
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Zadanie Highway">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien3/Kolekcje.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ZadExtra/OOP/Zad2/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ZadExtra/OOP/Zad2/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656776313964</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Zadanie Highway">
+      <created>1656880645782</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656880645782</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,6 +228,7 @@
     <MESSAGE value="poprawione losowanie liczby uszkodzonych opon w klasie Car" />
     <MESSAGE value="Poczta part 1" />
     <MESSAGE value="Dodano metodę Menu oraz klasy POLetter oraz Address" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodano metodę Menu oraz klasy POLetter oraz Address" />
+    <MESSAGE value="Zadanie Highway" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zadanie Highway" />
   </component>
 </project>
