@@ -1,4 +1,4 @@
-package ZadDom.PostOffice;
+package Cwiczenia.PostOffice;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package ZadExtra.OOP.Highway;
+package Extra.OOP.Highway;
 
 import java.util.Date;
 import java.util.HashMap;

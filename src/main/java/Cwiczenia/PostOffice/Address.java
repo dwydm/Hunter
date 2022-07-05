@@ -1,4 +1,4 @@
-package ZadDom.PostOffice;
+package Cwiczenia.PostOffice;
 
 public class Address {
 

@@ -1,4 +1,4 @@
-package ZadDom.Workshop;
+package Cwiczenia.Workshop;
 
 public enum WorkshopServices {
     FLAT_TIRE_FIX("Punctured tire repair", 55.00 );

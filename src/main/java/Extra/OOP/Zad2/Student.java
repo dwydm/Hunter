@@ -1,4 +1,4 @@
-package ZadExtra.OOP.Zad2;
+package Extra.OOP.Zad2;
 
 public class Student extends Person {
     private String fieldOfStudy;

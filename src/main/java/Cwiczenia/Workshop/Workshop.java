@@ -1,4 +1,4 @@
-package ZadDom.Workshop;
+package Cwiczenia.Workshop;
 
 import java.util.ArrayList;
 import java.util.List;

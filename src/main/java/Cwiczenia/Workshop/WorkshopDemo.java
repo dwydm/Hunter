@@ -1,4 +1,4 @@
-package ZadDom.Workshop;
+package Cwiczenia.Workshop;
 
 public class WorkshopDemo {
 

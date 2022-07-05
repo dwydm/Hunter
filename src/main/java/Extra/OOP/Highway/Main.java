@@ -1,4 +1,4 @@
-package ZadExtra.OOP.Highway;
+package Extra.OOP.Highway;
 
 import java.io.BufferedReader;
 import java.io.IOException;

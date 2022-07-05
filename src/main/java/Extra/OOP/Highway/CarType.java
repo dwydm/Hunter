@@ -1,4 +1,4 @@
-package ZadExtra.OOP.Highway;
+package Extra.OOP.Highway;
 
 public enum CarType {
     TRUCK(0.025),
