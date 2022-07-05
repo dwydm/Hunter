@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Zadanie 2 dodano klasy Staff, Student oraz klasę PersonDemo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien4/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien4/AnimalsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien4/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien4/Rooster.java" afterDir="false" />
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Polimorfizm">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Citizen/Citizen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Citizen/Citizens/King.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Citizen/Citizens/Peasant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Citizen/Citizens/Soldier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Citizen/Citizens/Townsman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Citizen/Town.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +59,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AnimalsDemo">
+  <component name="RunManager" selected="Application.Town">
     <configuration name="AnimalsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -79,19 +81,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Cwiczenia.Cards.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinieDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dzien1.zad2.LinieDemo" />
-      <module name="Advanced_SDA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Dzien1.zad2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,6 +114,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Town" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Cwiczenia.Citizen.Town" />
+      <module name="Advanced_SDA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Cwiczenia.Citizen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -136,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Town" />
         <item itemvalue="Application.AnimalsDemo" />
         <item itemvalue="Application.CardsDemo" />
         <item itemvalue="Application.PersonDemo" />
         <item itemvalue="Application.SamochodDemo" />
-        <item itemvalue="Application.LinieDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656962244543</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Polimorfizm">
+      <created>1657040452236</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1657040452236</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,7 +275,8 @@
     <MESSAGE value="Zadanie Highway" />
     <MESSAGE value="Zadanie 2 + Dzien3 kolekcje" />
     <MESSAGE value="Zadanie 2 dodano klasy Staff, Student oraz klasę PersonDemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 2 dodano klasy Staff, Student oraz klasę PersonDemo" />
+    <MESSAGE value="Polimorfizm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Polimorfizm" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
