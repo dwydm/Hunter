@@ -5,35 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Zadanie 2 dodano klasy Staff, Student oraz klasę PersonDemo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/Analyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/CardsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/Rank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/Suit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien4/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien4/AnimalsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien4/Horse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien4/Rooster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ZadDom/PostOffice/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/PostOffice/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ZadDom/PostOffice/DeliveryStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/PostOffice/DeliveryStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ZadDom/PostOffice/POLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/PostOffice/POLetter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ZadDom/PostOffice/POPackage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/PostOffice/POPackage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ZadDom/PostOffice/PostOffice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/PostOffice/PostOffice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ZadDom/PostOffice/PostOfficeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/PostOffice/PostOfficeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ZadDom/Workshop/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Workshop/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ZadDom/Workshop/Receipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Workshop/Receipt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ZadDom/Workshop/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Workshop/Wheel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ZadDom/Workshop/Workshop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Workshop/Workshop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ZadDom/Workshop/WorkshopDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Workshop/WorkshopDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ZadDom/Workshop/WorkshopServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Workshop/WorkshopServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ZadExtra/OOP/Highway/CarType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Extra/OOP/Highway/CarType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ZadExtra/OOP/Highway/Highway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Extra/OOP/Highway/Highway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ZadExtra/OOP/Highway/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Extra/OOP/Highway/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ZadExtra/OOP/Highway/VehicleInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Extra/OOP/Highway/VehicleInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ZadExtra/OOP/Highway/zadanie" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Extra/OOP/Highway/zadanie" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ZadExtra/OOP/Zad1/Point2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Extra/OOP/Zad1/Point2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ZadExtra/OOP/Zad2/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Extra/OOP/Zad2/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ZadExtra/OOP/Zad2/PersonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Extra/OOP/Zad2/PersonDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ZadExtra/OOP/Zad2/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Extra/OOP/Zad2/Staff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ZadExtra/OOP/Zad2/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Extra/OOP/Zad2/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ZadExtra/OOP/Zad2/zadanie" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Extra/OOP/Zad2/zadanie" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,19 +45,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Projekty/Java/Advanced_SDA/src/main/java",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "File.Encoding"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projekty/Java/Advanced_SDA/src/main/java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.CardsDemo">
+}</component>
+  <component name="RunManager" selected="Application.AnimalsDemo">
+    <configuration name="AnimalsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Dzien4.AnimalsDemo" />
+      <module name="Advanced_SDA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dzien4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CardsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Cwiczenia.Cards.CardsDemo" />
       <module name="Advanced_SDA" />
@@ -134,19 +125,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkshopDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Cwiczenia.Workshop.WorkshopDemo" />
-      <module name="Advanced_SDA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Cwiczenia.Workshop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -158,6 +136,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnimalsDemo" />
         <item itemvalue="Application.CardsDemo" />
         <item itemvalue="Application.PersonDemo" />
         <item itemvalue="Application.SamochodDemo" />
