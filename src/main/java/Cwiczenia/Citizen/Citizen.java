@@ -2,18 +2,19 @@ package Cwiczenia.Citizen;
 
 public abstract class Citizen {
     protected String name;
-    protected boolean canVote;
 
     public Citizen(String name, boolean canVote) {
         this.name = name;
-        this.canVote = canVote;
     }
+
+    public abstract boolean canVote();
 
     public String getName() {
         return name;
     }
 
-    public boolean canVote() {
-        return canVote;
+    @Override
+    public String toString() {
+        return getClass().getSimpleName() + ": " + getName();
     }
 }

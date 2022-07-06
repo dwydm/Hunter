@@ -7,4 +7,9 @@ public class Townsman extends Citizen {
     public Townsman(String name, boolean canVote) {
         super(name, canVote);
     }
+
+    @Override
+    public boolean canVote() {
+        return true;
+    }
 }
