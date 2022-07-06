@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Citizens">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Citizen/CitizenDemo.java" afterDir="false" />
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Citizens poprawki">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Extra/OOP/Zad5/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Extra/OOP/Zad5/LineDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Citizen/Citizen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Citizen/Citizen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Citizen/Citizens/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Citizen/Citizens/King.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Citizen/Citizens/Peasant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Citizen/Citizens/Peasant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Citizen/Citizens/Soldier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Citizen/Citizens/Soldier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Citizen/Citizens/Townsman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Citizen/Citizens/Townsman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Citizen/Town.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Citizen/Town.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Extra/OOP/Zad1/Point2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Extra/OOP/Zad1/Point2D.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +56,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CitizenDemo">
+  <component name="RunManager" selected="Application.LineDemo">
     <configuration name="AnimalsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -104,12 +100,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ZadExtra.OOP.Zad2.PersonDemo" />
+    <configuration name="LineDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Extra.OOP.Zad5.LineDemo" />
       <module name="Advanced_SDA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ZadExtra.OOP.Zad2.*" />
+          <option name="PATTERN" value="Extra.OOP.Zad5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LineDemo" />
         <item itemvalue="Application.CitizenDemo" />
         <item itemvalue="Application.Town" />
         <item itemvalue="Application.AnimalsDemo" />
         <item itemvalue="Application.CardsDemo" />
-        <item itemvalue="Application.PersonDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657045253952</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Citizens poprawki">
+      <created>1657092221610</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1657092221610</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,7 +292,8 @@
     <MESSAGE value="Zadanie 2 dodano klasy Staff, Student oraz klasę PersonDemo" />
     <MESSAGE value="Polimorfizm" />
     <MESSAGE value="Citizens" />
-    <option name="LAST_COMMIT_MESSAGE" value="Citizens" />
+    <MESSAGE value="Citizens poprawki" />
+    <option name="LAST_COMMIT_MESSAGE" value="Citizens poprawki" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

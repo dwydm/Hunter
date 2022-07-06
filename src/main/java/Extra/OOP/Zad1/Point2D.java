@@ -26,5 +26,8 @@ public class Point2D {
         return new float[] {x,y};
     }
 
-
+    @Override
+    public String toString() {
+        return "x: " + x + " y: " + y;
+    }
 }
