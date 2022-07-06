@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="SDA Zad 5 Line">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Board/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Board/Tile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Board/TileType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Hunter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/HunterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Items/PlayingPiece.java" afterDir="false" />
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Gra w zbijaka (w trakcie pisania)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien5/Interfaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien5/InterfacesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien5/Zad7/Daughter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien5/Zad7/FamilyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien5/Zad7/FamilyMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien5/Zad7/Father.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien5/Zad7/Mother.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien5/Zad7/Son.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -64,7 +66,7 @@
       <recent name="Cwiczenia.Hunter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LineDemo">
+  <component name="RunManager" selected="Application.FamilyDemo">
     <configuration name="AnimalsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -80,19 +82,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CardsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Cwiczenia.Cards.CardsDemo" />
-      <module name="Advanced_SDA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Cwiczenia.Cards.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CitizenDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -101,6 +90,21 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Cwiczenia.Citizen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FamilyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Dzien5.Zad7.FamilyDemo" />
+      <module name="Advanced_SDA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dzien5.Zad7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FamilyDemo" />
         <item itemvalue="Application.LineDemo" />
         <item itemvalue="Application.CitizenDemo" />
         <item itemvalue="Application.Town" />
         <item itemvalue="Application.AnimalsDemo" />
-        <item itemvalue="Application.CardsDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657109446257</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Gra w zbijaka (w trakcie pisania)">
+      <created>1657121769618</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1657121769618</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -309,7 +320,8 @@
     <MESSAGE value="Citizens" />
     <MESSAGE value="Citizens poprawki" />
     <MESSAGE value="SDA Zad 5 Line" />
-    <option name="LAST_COMMIT_MESSAGE" value="SDA Zad 5 Line" />
+    <MESSAGE value="Gra w zbijaka (w trakcie pisania)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gra w zbijaka (w trakcie pisania)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
