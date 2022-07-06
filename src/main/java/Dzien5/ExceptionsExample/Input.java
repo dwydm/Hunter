@@ -18,8 +18,7 @@ public class Input {
                 number = input.readNumber();
                 break;
             } catch (InputMismatchException e){
-                System.out.println("Provided number is not a number");
-                e.getMessage();
+                System.out.println("Error: " + e.getClass().getSimpleName() +"\nProvided number is not a number");
             }
         } while (true);
         System.out.println("Podano " + number);
