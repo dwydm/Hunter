@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Gra w zbijaka (w trakcie pisania)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien5/Interfaces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien5/InterfacesExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien5/Zad7/Daughter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien5/Zad7/FamilyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien5/Zad7/FamilyMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien5/Zad7/Father.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien5/Zad7/Mother.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien5/Zad7/Son.java" afterDir="false" />
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Interfejsy">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien5/ExceptionsExample/Input.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,22 +59,7 @@
       <recent name="Cwiczenia.Hunter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FamilyDemo">
-    <configuration name="AnimalsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="18" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Dzien4.AnimalsDemo" />
-      <module name="Advanced_SDA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Dzien4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Input">
     <configuration name="CitizenDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -105,6 +83,21 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Dzien5.Zad7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Input" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Dzien5.ExceptionsExample.Input" />
+      <module name="Advanced_SDA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dzien5.ExceptionsExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Input" />
         <item itemvalue="Application.FamilyDemo" />
         <item itemvalue="Application.LineDemo" />
         <item itemvalue="Application.CitizenDemo" />
         <item itemvalue="Application.Town" />
-        <item itemvalue="Application.AnimalsDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657121769618</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Interfejsy">
+      <created>1657126309084</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1657126309084</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -321,7 +321,8 @@
     <MESSAGE value="Citizens poprawki" />
     <MESSAGE value="SDA Zad 5 Line" />
     <MESSAGE value="Gra w zbijaka (w trakcie pisania)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gra w zbijaka (w trakcie pisania)" />
+    <MESSAGE value="Interfejsy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interfejsy" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
