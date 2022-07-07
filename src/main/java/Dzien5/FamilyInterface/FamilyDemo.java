@@ -1,4 +1,4 @@
-package Dzien5.Zad7;
+package Dzien5.FamilyInterface;
 
 public class FamilyDemo {
     public static void main(String[] args) {

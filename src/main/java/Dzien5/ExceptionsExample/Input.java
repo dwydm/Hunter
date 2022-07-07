@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Input {
 
-    public int readNumber(){
+    public int readNumber(){ // lepsze rozwiązanie przez rekurencję
         Scanner scanner = new Scanner(System.in);
         return scanner.nextInt();
     }
