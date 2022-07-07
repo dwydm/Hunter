@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Reorganizacja plików">
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="porządki w klasie ExceptionsDemo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Items/ComputerPiece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Items/PlayerPiece.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Board/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Board/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Board/Tile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Board/TileType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Board/TileType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Hunter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/HunterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/HunterDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Items/PlayingPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Items/PlayingPiece.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="CardExt" />
+        <entry key="$PROJECT_DIR$" value="pop2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,7 +66,7 @@
       <recent name="Cwiczenia.Hunter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CitizenDemo">
+  <component name="RunManager" selected="Application.HunterDemo">
     <configuration name="CitizenDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -91,14 +97,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FamilyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="HunterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Dzien5.FamilyInterface.FamilyDemo" />
+      <option name="MAIN_CLASS_NAME" value="Cwiczenia.Hunter.HunterDemo" />
       <module name="Advanced_SDA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Dzien5.FamilyInterface.*" />
+          <option name="PATTERN" value="Cwiczenia.Hunter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,6 +153,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HunterDemo" />
         <item itemvalue="Application.Input" />
         <item itemvalue="Application.LineDemo" />
         <item itemvalue="Application.CitizenDemo" />
@@ -316,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657175157724</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="porządki w klasie ExceptionsDemo">
+      <created>1657175606466</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1657175606466</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -351,7 +365,8 @@
     <MESSAGE value="Interfejsy" />
     <MESSAGE value="Wyjątki" />
     <MESSAGE value="Reorganizacja plików" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorganizacja plików" />
+    <MESSAGE value="porządki w klasie ExceptionsDemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="porządki w klasie ExceptionsDemo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
