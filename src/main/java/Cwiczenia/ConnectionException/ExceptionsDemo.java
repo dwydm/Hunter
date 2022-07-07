@@ -21,6 +21,7 @@ public class ExceptionsDemo {
 
         //ma obsłużyć wyjątek pojawiający się przy podaniu innej wartości niż liczba
         try{
+            System.out.println("Enter a number");
             int num = scn.nextInt();
         } catch (InputMismatchException e) {
             System.out.println(e.getClass().getSimpleName());
@@ -39,8 +40,6 @@ public class ExceptionsDemo {
             System.out.println(e.getMessage());
         }
 
-
-
     }
 
         private static void displayContentOfBooksFile(List<String> fileContent) {
@@ -48,8 +47,5 @@ public class ExceptionsDemo {
             for (String line : fileContent) {
                 System.out.println(line);
             }
-
         }
-
-
 }
