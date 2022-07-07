@@ -25,8 +25,10 @@ public class Tile {
     }
 
     public void playingPieceLeave() {
+    }
 
-
+    public boolean isOccupied(){
+        return occupied;
     }
 
     public void setSpecialTile(TileType tileType){
