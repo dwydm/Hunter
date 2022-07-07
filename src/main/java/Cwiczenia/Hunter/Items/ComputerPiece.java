@@ -3,7 +3,7 @@ package Cwiczenia.Hunter.Items;
 public class ComputerPiece extends PlayingPiece {
 
     public ComputerPiece() {
-        setPlayingPieceSymbol("&");
+        setPlayingPieceSymbol("[&]");
     }
 
     @Override

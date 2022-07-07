@@ -3,7 +3,7 @@ package Cwiczenia.Hunter.Items;
 public class PlayerPiece extends PlayingPiece {
 
     public PlayerPiece(String playerSymbol){
-        setPlayingPieceSymbol(playerSymbol);
+        setPlayingPieceSymbol("[" + playerSymbol + "]");
     }
 
     @Override

@@ -7,7 +7,7 @@ public class Board {
     private final int MAXIMUM_HEDGES = 16;
     private final int MINIMUM_WALLS = 3;
     private final int MAXIMUM_WALLS = 10;
-    private final int BOARD_ROW = 10;
+    public final int BOARD_ROW = 10;
     private Tile[][] gameBoard;
 
     private static Board board;
@@ -24,7 +24,10 @@ public class Board {
     }
 
     public Tile getBoardTile(int x, int y) {
-        return gameBoard[y][x];
+        if((x >= 0 && x < BOARD_ROW) && (y >= 0 && y < BOARD_ROW)) {
+            return gameBoard[y][x];
+        }
+        return null;
     }
 
     public void cleanBoard() {
@@ -75,6 +78,21 @@ public class Board {
                 gameBoard[i][j] = new Tile(j,i,TileType.FLOOR);
             }
         }
+    }
+
+    public Tile[][] returnSurroundingSquare(int centerPositionX, int centerPositionY) {
+        Tile[][] smallSquare = new Tile[3][3];
+        int yAxis = centerPositionY - 1;
+        int xAxis = centerPositionX - 1;
+
+        for (int i = 0; i < smallSquare.length; i++) {
+            for (int j = 0; j < smallSquare[i].length; j++) {
+                smallSquare[i][j] = getBoardTile(xAxis, yAxis);
+                xAxis++;
+            }
+            yAxis++;
+        }
+        return smallSquare;
     }
 
     public void displayBoard() {

@@ -17,14 +17,22 @@ public class Tile {
 
     }
 
-    public void playingPieceEnter() {
+    public void playingPieceEnter(PlayingPiece playingPiece) {
         if(getType() == TileType.WALL) {
             return;
         }
+        this.playingPiece = playingPiece;
+        occupied = true;
 
     }
 
+    public PlayingPiece getPlayingPiece() {
+        return playingPiece;
+    }
+
     public void playingPieceLeave() {
+        playingPiece = null;
+        occupied = false;
     }
 
     public boolean isOccupied(){
@@ -41,7 +49,7 @@ public class Tile {
 
     @Override
     public String toString() {
-        if(occupied) {
+        if(occupied && tileType != TileType.HEDGE || playingPiece instanceof PlayerPiece) {
             return playingPiece.getPlayingPieceSymbol();
         }
         return tileType.getBoardMark();
