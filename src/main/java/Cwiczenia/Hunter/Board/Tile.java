@@ -1,45 +1,48 @@
 package Cwiczenia.Hunter.Board;
 
 import Cwiczenia.Hunter.Items.PlayerPiece;
-import Cwiczenia.Hunter.Items.PlayingPiece;
+import Cwiczenia.Hunter.Items.PlayablePiece;
 
 public class Tile {
     private TileType tileType;
     private int positionX;
     private int positionY;
-    private PlayingPiece playingPiece;
+    private PlayablePiece playablePiece;
     private boolean occupied;
 
-    public Tile(int positionX, int positionY, TileType tileType){
+    public Tile(int positionX, int positionY, TileType tileType) {
         this.positionX = positionX;
         this.positionY = positionY;
         this.tileType = tileType;
 
     }
 
-    public void playingPieceEnter(PlayingPiece playingPiece) {
-        if(getType() == TileType.WALL) {
+    public void playingPieceEnter(PlayablePiece playablePiece) {
+        if (getType() == TileType.WALL) {
             return;
         }
-        this.playingPiece = playingPiece;
+
+        playablePiece.moveToPosition(positionX, positionY);
+
+        this.playablePiece = playablePiece;
         occupied = true;
 
     }
 
-    public PlayingPiece getPlayingPiece() {
-        return playingPiece;
+    public PlayablePiece getPlayablePiece() {
+        return playablePiece;
     }
 
     public void playingPieceLeave() {
-        playingPiece = null;
+        playablePiece = null;
         occupied = false;
     }
 
-    public boolean isOccupied(){
+    public boolean isOccupied() {
         return occupied;
     }
 
-    public void setSpecialTile(TileType tileType){
+    public void setSpecialTile(TileType tileType) {
         this.tileType = tileType;
     }
 
@@ -49,8 +52,8 @@ public class Tile {
 
     @Override
     public String toString() {
-        if(occupied && tileType != TileType.HEDGE || playingPiece instanceof PlayerPiece) {
-            return playingPiece.getPlayingPieceSymbol();
+        if (occupied && tileType != TileType.HEDGE || playablePiece instanceof PlayerPiece) {
+            return playablePiece.getPlayablePieceSymbol();
         }
         return tileType.getBoardMark();
     }

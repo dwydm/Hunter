@@ -16,6 +16,7 @@ public enum TileType {
     public boolean isTraversable() {
         return traversable;
     }
+
     public String getBoardMark() {
         return boardMark;
     }

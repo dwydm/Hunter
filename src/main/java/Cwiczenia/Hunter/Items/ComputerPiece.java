@@ -1,13 +1,13 @@
 package Cwiczenia.Hunter.Items;
 
-public class ComputerPiece extends PlayingPiece {
+public class ComputerPiece extends PlayablePiece {
 
     public ComputerPiece() {
-        setPlayingPieceSymbol("[&]");
+        setPlayablePieceSymbol("[&]");
     }
 
     @Override
     public String toString() {
-        return getPlayingPieceSymbol();
+        return getPlayablePieceSymbol();
     }
 }

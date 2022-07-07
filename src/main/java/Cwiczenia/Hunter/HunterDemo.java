@@ -22,7 +22,7 @@ public class HunterDemo {
 
     }
 
-    public static void hunterMenu(){
+    public static void hunterMenu() {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter your name");
         String playerName = scn.nextLine();
@@ -42,7 +42,7 @@ public class HunterDemo {
                 default:
             }
 
-        }while (loopMenuAgain);
+        } while (loopMenuAgain);
     }
 
 

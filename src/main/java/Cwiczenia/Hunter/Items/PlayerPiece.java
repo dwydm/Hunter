@@ -1,13 +1,13 @@
 package Cwiczenia.Hunter.Items;
 
-public class PlayerPiece extends PlayingPiece {
+public class PlayerPiece extends PlayablePiece {
 
-    public PlayerPiece(String playerSymbol){
-        setPlayingPieceSymbol("[" + playerSymbol + "]");
+    public PlayerPiece(String playerSymbol) {
+        setPlayablePieceSymbol("[" + playerSymbol + "]");
     }
 
     @Override
     public String toString() {
-        return getPlayingPieceSymbol();
+        return getPlayablePieceSymbol();
     }
 }

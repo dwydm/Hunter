@@ -1,5 +1,7 @@
 package Cwiczenia.Hunter.Board;
 
+import Cwiczenia.Hunter.Items.PlayablePiece;
+
 import java.util.Random;
 
 public class Board {
@@ -16,15 +18,15 @@ public class Board {
         gameBoard = new Tile[BOARD_ROW][BOARD_ROW];
     }
 
-    public static Board getBoard(){
-        if(board == null) {
+    public static Board getBoard() {
+        if (board == null) {
             return new Board();
         }
         return board;
     }
 
     public Tile getBoardTile(int x, int y) {
-        if((x >= 0 && x < BOARD_ROW) && (y >= 0 && y < BOARD_ROW)) {
+        if ((x >= 0 && x < BOARD_ROW) && (y >= 0 && y < BOARD_ROW)) {
             return gameBoard[y][x];
         }
         return null;
@@ -49,10 +51,10 @@ public class Board {
         while (numberOfWalls > 0) {
             positionY = rnd.nextInt(gameBoard.length - 2) + 1; // nie pozwala na tworzenie ścian przy krawędziach
             positionX = rnd.nextInt(gameBoard.length - 2) + 1;
-            if(getBoardTile(positionX,positionY).getType() != TileType.FLOOR) {
+            if (getBoardTile(positionX, positionY).getType() != TileType.FLOOR) {
                 continue;
             }
-            getBoardTile(positionX,positionY).setSpecialTile(TileType.WALL);
+            getBoardTile(positionX, positionY).setSpecialTile(TileType.WALL);
             numberOfWalls--;
         }
     }
@@ -64,28 +66,33 @@ public class Board {
         while (numberOfHedges > 0) {
             positionY = rnd.nextInt(gameBoard.length);
             positionX = rnd.nextInt(gameBoard.length);
-            if(getBoardTile(positionX,positionY).getType() != TileType.FLOOR) {
+            if (getBoardTile(positionX, positionY).getType() != TileType.FLOOR) {
                 continue;
             }
-            getBoardTile(positionX,positionY).setSpecialTile(TileType.HEDGE);
+            getBoardTile(positionX, positionY).setSpecialTile(TileType.HEDGE);
             numberOfHedges--;
         }
     }
 
-    private void fillBoardWithFloorTiles(){
+    private void fillBoardWithFloorTiles() {
         for (int i = 0; i < gameBoard.length; i++) {
             for (int j = 0; j < gameBoard[i].length; j++) {
-                gameBoard[i][j] = new Tile(j,i,TileType.FLOOR);
+                gameBoard[i][j] = new Tile(j, i, TileType.FLOOR);
             }
         }
+    }
+
+    public Tile getTileContainingObject(PlayablePiece playablePiece) {
+        return getBoardTile(playablePiece.getPositionX(), playablePiece.getPositionY());
     }
 
     public Tile[][] returnSurroundingSquare(int centerPositionX, int centerPositionY) {
         Tile[][] smallSquare = new Tile[3][3];
         int yAxis = centerPositionY - 1;
-        int xAxis = centerPositionX - 1;
+        int xAxis;
 
         for (int i = 0; i < smallSquare.length; i++) {
+            xAxis = centerPositionX - 1;
             for (int j = 0; j < smallSquare[i].length; j++) {
                 smallSquare[i][j] = getBoardTile(xAxis, yAxis);
                 xAxis++;
@@ -101,22 +108,22 @@ public class Board {
             for (Tile tile : gameBoard[i]) {
                 System.out.print(tile + " | ");
             }
-            if(i == 2) {
+            if (i == 2) {
                 System.out.print("\t\t& - enemy, computer agents");
             }
-            if(i == 3) {
+            if (i == 3) {
                 System.out.print("\t\t# - hedge, players may hide in here");
             }
-            if(i == 4) {
+            if (i == 4) {
                 System.out.print("\t\t= - wall, players are unable to walk through it ");
             }
-            if(i == 6) {
-                System.out.print("\t\t>>> plan your 2 moves ahead, typing W,S,A or D separated with space ' '");
+            if (i == 6) {
+                System.out.print("\t\t>>> Plan your 2 moves ahead, typing W,S,A or D separated with space ' '");
             }
-            if(i == 7) {
+            if (i == 7) {
                 System.out.print("\t\t>>> Example input: \"W D\", step on a tile with enemy agents to take them out");
             }
-            if(i == 8) {
+            if (i == 8) {
                 System.out.print("\t\t>>> Caution, you have two moves, but agents react first in a turn");
             }
             System.out.println();
