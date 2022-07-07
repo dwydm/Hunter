@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Update Hunter, wyświetlanie graczy i obiektów na mapie">
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Update Hunter, update tekstu">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien6/MyArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Board/Board.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -344,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657210459437</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Update Hunter, update tekstu">
+      <created>1657212679954</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1657212679954</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -383,7 +390,8 @@
     <MESSAGE value="Update Hunter, generowanie tablicy i obiektów na Board" />
     <MESSAGE value="Update Hunter, Menu i Itemy Graczy" />
     <MESSAGE value="Update Hunter, wyświetlanie graczy i obiektów na mapie" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Hunter, wyświetlanie graczy i obiektów na mapie" />
+    <MESSAGE value="Update Hunter, update tekstu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Hunter, update tekstu" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
