@@ -5,20 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Wyjątki">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien5/Zad9Exceptions/ExceptionsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien5/Zad9Exceptions/FileConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien5/Zad9Exceptions/FileConnectionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dzien5/Zad9Exceptions/books.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien5/ExceptionsExample/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dzien5/ExceptionsExample/Input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien5/Interfaces.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien5/InterfacesExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien5/Zad7/Daughter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dzien5/FamilyInterface/Daughter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien5/Zad7/FamilyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dzien5/FamilyInterface/FamilyDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien5/Zad7/FamilyMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dzien5/FamilyInterface/FamilyMember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien5/Zad7/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dzien5/FamilyInterface/Father.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien5/Zad7/Mother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dzien5/FamilyInterface/Mother.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien5/Zad7/Son.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dzien5/FamilyInterface/Son.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien1/zad1/Samochod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien1/zad1/Samochod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien1/zad1/SamochodDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien1/zad1/SamochodDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien1/zad2/FabrykaLinii.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien1/zad2/FabrykaLinii.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien1/zad2/Linia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien1/zad2/Linia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien1/zad2/LinieDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien1/zad2/LinieDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien1/zad2/Prostokat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien1/zad2/Prostokat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien1/zad2/ProstokatDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien1/zad2/ProstokatDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien2/PBudowlanka/Blok.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien2/PBudowlanka/Blok.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien2/PBudowlanka/BlokDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien2/PBudowlanka/BlokDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien2/PBudowlanka/Mieszkanie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien2/PBudowlanka/Mieszkanie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien2/PBudowlanka/SerwisSpoldzielni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien2/PBudowlanka/SerwisSpoldzielni.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/Dom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien2/ProjektDom/Dom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/DomDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien2/ProjektDom/DomDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/Lozko.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien2/ProjektDom/Lozko.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/Okno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien2/ProjektDom/Okno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/Pokoj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien2/ProjektDom/Pokoj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien2/ProjektDom/StanOkna.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien2/ProjektDom/StanOkna.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien3/Kolekcje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien3/Kolekcje.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien4/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien4/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien4/AnimalsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien4/AnimalsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien4/Cow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien4/Cow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien4/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien4/Horse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien4/Rooster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien4/Rooster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien5/ExceptionsExample/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien5/ExceptionsExample/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien5/FamilyInterface/Daughter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien5/FamilyInterface/Daughter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien5/FamilyInterface/FamilyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien5/FamilyInterface/FamilyDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien5/FamilyInterface/FamilyMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien5/FamilyInterface/FamilyMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien5/FamilyInterface/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien5/FamilyInterface/Father.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien5/FamilyInterface/Mother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien5/FamilyInterface/Mother.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien5/FamilyInterface/Son.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien5/FamilyInterface/Son.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien5/Zad9Exceptions/ExceptionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/ConnectionException/ExceptionsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien5/Zad9Exceptions/FileConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/ConnectionException/FileConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien5/Zad9Exceptions/FileConnectionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/ConnectionException/FileConnectionException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dzien5/Zad9Exceptions/books.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/ConnectionException/books.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Extra/OOP/Highway/CarType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Highway/CarType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Extra/OOP/Highway/Highway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Highway/Highway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Extra/OOP/Highway/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Highway/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Extra/OOP/Highway/VehicleInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Highway/VehicleInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Extra/OOP/Highway/zadanie" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Highway/zadanie" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Extra/OOP/Zad1/Point2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDATasks/Zad1/Point2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Extra/OOP/Zad2/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDATasks/Zad2/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Extra/OOP/Zad2/PersonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDATasks/Zad2/PersonDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Extra/OOP/Zad2/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDATasks/Zad2/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Extra/OOP/Zad2/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDATasks/Zad2/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Extra/OOP/Zad2/zadanie" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDATasks/Zad2/zadanie" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Extra/OOP/Zad5/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDATasks/Zad5/Line.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Extra/OOP/Zad5/LineDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDATasks/Zad5/LineDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +104,7 @@
       <recent name="Cwiczenia.Hunter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExceptionsDemo">
+  <component name="RunManager" selected="Application.Dzien5.ConnectionException.ExceptionsDemo">
     <configuration name="CitizenDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -90,11 +123,11 @@
     <configuration name="ExceptionsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Dzien5.Zad9Exceptions.ExceptionsDemo" />
+      <option name="MAIN_CLASS_NAME" value="Dzien5.ConnectionException.ExceptionsDemo" />
       <module name="Advanced_SDA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Dzien5.Zad9Exceptions.*" />
+          <option name="PATTERN" value="Dzien5.ConnectionException.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,7 +191,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExceptionsDemo" />
+        <item itemvalue="Application.Dzien5.ConnectionException.ExceptionsDemo" />
         <item itemvalue="Application.Input" />
         <item itemvalue="Application.LineDemo" />
         <item itemvalue="Application.CitizenDemo" />
@@ -314,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657129181402</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Wyjątki">
+      <created>1657174530969</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1657174530969</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
