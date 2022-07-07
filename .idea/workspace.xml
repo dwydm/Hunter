@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Reorganizacja plików">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/ConnectionException/ExceptionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/ConnectionException/ExceptionsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Board/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Board/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Board/Tile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="pop2" />
+        <entry key="$PROJECT_DIR$" value="CardExt" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,7 +60,7 @@
       <recent name="Cwiczenia.Hunter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Dzien5.ConnectionException.ExceptionsDemo">
+  <component name="RunManager" selected="Application.CitizenDemo">
     <configuration name="CitizenDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -145,7 +147,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Dzien5.ConnectionException.ExceptionsDemo" />
         <item itemvalue="Application.Input" />
         <item itemvalue="Application.LineDemo" />
         <item itemvalue="Application.CitizenDemo" />

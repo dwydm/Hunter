@@ -4,16 +4,22 @@ import Cwiczenia.Hunter.Items.PlayingPiece;
 
 public class Tile {
     private TileType tileType;
-    private PlayingPiece playingPiece;
     private int positionX;
     private int positionY;
+    private String boardMark;
+    private PlayingPiece playingPiece;
 
     public Tile(int positionX, int positionY, TileType tileType){
         this.positionX = positionX;
         this.positionY = positionY;
+        this.tileType = tileType;
 
         if(tileType == TileType.FLOOR) {
-            this.tileType = tileType;
+            boardMark = "[ ]";
+        } else if (tileType == TileType.HEDGE) {
+            boardMark = "[#]";
+        } else if (tileType == TileType.WALL) {
+            boardMark = "[=]";
         }
     }
 

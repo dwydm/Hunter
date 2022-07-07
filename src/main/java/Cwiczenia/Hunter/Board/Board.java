@@ -1,5 +1,7 @@
 package Cwiczenia.Hunter.Board;
 
+import java.util.Random;
+
 public class Board {
     private Tile[][] gameBoard;
 
@@ -16,9 +18,16 @@ public class Board {
         return board;
     }
 
+    public void cleanBoard() {
+        fillBoardWithFloorTiles();
+    }
+
     private void fillBoardWithFloorTiles(){
 
+
     }
+
+
     public void displayBoard() {
         for (Tile[] tiles : gameBoard) {
             for (Tile tile : tiles) {
