@@ -116,6 +116,9 @@ public class Board {
             if(i == 7) {
                 System.out.print("\t\t>>> Example input: \"W D\", step on a tile with enemy agents to take them out");
             }
+            if(i == 8) {
+                System.out.print("\t\t>>> Caution, you have two moves, but agents react first in a turn");
+            }
             System.out.println();
 
         }
