@@ -2,14 +2,12 @@ package Cwiczenia.Hunter;
 
 import Cwiczenia.Hunter.Board.Board;
 import Cwiczenia.Hunter.Board.Tile;
+import Cwiczenia.Hunter.Board.TileType;
 import Cwiczenia.Hunter.Items.ComputerPiece;
 import Cwiczenia.Hunter.Items.PlayablePiece;
 import Cwiczenia.Hunter.Items.PlayerPiece;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 
 public class Hunter {
 
@@ -19,9 +17,9 @@ public class Hunter {
     }
 
     private final static int NUMBER_OF_AGENTS = 3;
+    private List<ComputerPiece> agents = new ArrayList<>(NUMBER_OF_AGENTS);
     private static Board gameBoard;
     private static int globalTurn = 1;
-    private List<ComputerPiece> agents = new ArrayList<>(NUMBER_OF_AGENTS);
     private PlayablePiece player;
     private boolean haGameEnded;
     private boolean isPlayerAWinner;
@@ -32,18 +30,13 @@ public class Hunter {
         this.player = player;
         initializeAgents();
         placePlayingPiecesOnBoard();
-/*        gameBoard = Board.getBoard();
-        gameBoard.cleanBoard();
-        initializeAgents();
-        this.player = player;
-        placePlayingPiecesOnBoard();*/
 
         do {
             gameBoard.displayBoard();
             printPlayerInstruction();
             System.out.print("\nYour move: ");
             String playerMove = scn.nextLine().toUpperCase();
-            resolveMovement(playerMove);
+            resolveTurnMovement(playerMove);
             globalTurn++;
         } while (!haGameEnded);
         displayGameOverMsg(isPlayerAWinner);
@@ -74,10 +67,10 @@ public class Hunter {
             counter--;
         }
 
-        insertPLayerToStartingPosition();
+        placePLayerToStartingPosition();
     }
 
-    private void insertPLayerToStartingPosition() {
+    private void placePLayerToStartingPosition() {
         Random rnd = new Random();
         int positionX;
         int positionY;
@@ -95,8 +88,8 @@ public class Hunter {
     }
 
     private boolean isSquareSafe(int positionX, int positionY) {
-        Tile[][] surroundingSquare = gameBoard.returnSurroundingSquare(positionX, positionY); //Board zwraca 8 obiektów Tile wokół przekazanego środka
-        //pola poza krawędzią Board zwracają null!
+        Tile[][] surroundingSquare = gameBoard.returnSurroundingSquare(positionX, positionY);   //Board zwraca 8 obiektów Tile wokół przekazanego środka
+        //pola poza krawędzią Board są null
         for (Tile[] tiles : surroundingSquare) {
             for (Tile tile : tiles) {
                 if (tile == null || tile == gameBoard.getBoardTile(positionX, positionY)) {
@@ -109,11 +102,9 @@ public class Hunter {
         return true;
     }
 
-    private void resolveMovement(String playerMovement) {
-        if (playerMovement.isEmpty()) {
-            agentsMovement();
-        }
+    private void resolveTurnMovement(String playerMovement) {
         String[] playerMovementArray = playerMovement.split("\s");
+        agentsMovement();
         playerSetDirection(playerMovementArray);
 
     }
@@ -151,39 +142,69 @@ public class Hunter {
             return;
         } else if (destinationBoardTile.isOccupied() && !isFriendly(playablePiece, destinationBoardTile.getPlayablePiece())) {
             resolvePlayablePieceConflict(playablePiece, destinationBoardTile);
+
         } else if (!destinationBoardTile.isOccupied()) {
-            gameBoard.getTileContainingObject(playablePiece).playingPieceLeave();
-            playablePiece.moveToPosition(posX,posY);
-            destinationBoardTile.playingPieceEnter(playablePiece);
+            gameBoard.getTileContainingObject(playablePiece).playingPieceLeave();   //opuszcza zajmowany kwadrat
+            playablePiece.moveToPosition(posX, posY);                                //PlayablePiece otrzymuje nową pozycję
+            destinationBoardTile.playingPieceEnter(playablePiece);                  //Tile przyjmuje obiekt PlayablePiece
         }
     }
 
     private void resolvePlayablePieceConflict(PlayablePiece playablePiece, Tile boardTile) {
-        if (boardTile.getPlayablePiece() instanceof ComputerPiece && agents.size() <= 1) {
-            agents.remove(boardTile.getPlayablePiece());
+        if (boardTile.getPlayablePiece() instanceof ComputerPiece && agents.size() <= 1) {  // wygrana
+            agents.remove(boardTile.getPlayablePiece());        //z listy agentow usuwany jest obiekt PlayablePiece zwracany przez Tile
             boardTile.playingPieceLeave();
             isPlayerAWinner = true;
             haGameEnded = true;
-        } else if (boardTile.getPlayablePiece() instanceof ComputerPiece) {
+        } else if (boardTile.getPlayablePiece() instanceof ComputerPiece) {                 //zbicie, gra w toku
             agents.remove(boardTile.getPlayablePiece());
             boardTile.playingPieceLeave();
             gameBoard.getBoardTile(playablePiece.getPositionX(), playablePiece.getPositionY()).playingPieceLeave();
             boardTile.playingPieceEnter(playablePiece);
-        } else if (boardTile.getPlayablePiece() instanceof PlayerPiece) {
+        } else if (boardTile.getPlayablePiece() instanceof PlayerPiece) {                   //przegrana
             isPlayerAWinner = false;
             haGameEnded = true;
         }
     }
 
-    private boolean isFriendly(PlayablePiece attacker, PlayablePiece deffender){
-        if (attacker.getPlayablePieceSymbol().equalsIgnoreCase(deffender.getPlayablePieceSymbol())){
+    private void agentsMovement() {
+        Tile[][] agentSurroundings;
+        Tile destinationMoveTile;
+
+        for (ComputerPiece agent : agents) {
+            agentSurroundings = gameBoard.returnSurroundingSquare(agent.getPositionX(), agent.getPositionY());
+            destinationMoveTile = assesAgentViableActions(agent, agentSurroundings);
+            playablePieceMove(agent,destinationMoveTile.getPositionX(),destinationMoveTile.getPositionY());
+
+        }
+
+    }
+
+    private Tile assesAgentViableActions(ComputerPiece agent, Tile[][] agentSurroundings) {
+        ArrayList<Tile> viableMoves = new ArrayList<>();
+        for (Tile[] tiles : agentSurroundings) {
+            for (Tile tile : tiles) {
+                if (tile == null || tile.getType() == TileType.WALL) {
+                    continue;
+                } else if (tile.isOccupied() && !isFriendly(agent, tile.getPlayablePiece())) {
+                    return tile;
+                } else if (!tile.isOccupied() && tile.getType().isTraversable()) {
+                    viableMoves.add(tile);
+                }
+            }
+        }
+        if (!viableMoves.isEmpty()) {
+            Collections.shuffle(viableMoves);
+            return viableMoves.get(0);
+        }
+        return gameBoard.getTileContainingObject(agent);
+    }
+
+    private boolean isFriendly(PlayablePiece attacker, PlayablePiece deffender) {
+        if (attacker.getPlayablePieceSymbol().equalsIgnoreCase(deffender.getPlayablePieceSymbol())) {
             return true;
         }
         return false;
-    }
-
-    private void agentsMovement() {
-
     }
 
     private void initializeAgents() {
@@ -193,7 +214,7 @@ public class Hunter {
     }
 
     public void printPlayerInstruction() {
-        System.out.println("\t\t\t\t\tPLAN YOUR MOVES\t\t\t\tTURN: " + globalTurn);
+        System.out.println("AGENTS: " + agents.size() + "\t\t\tPLAN YOUR MOVES\t\t\t\tTURN: " + globalTurn);
         System.out.println("W - MOVE UP | " + "S - MOVE DOWN | " + "A - MOVE LEFT | " + "D - MOVE RIGHT");
     }
 

@@ -46,6 +46,14 @@ public class Tile {
         this.tileType = tileType;
     }
 
+    public int getPositionX() {
+        return positionX;
+    }
+
+    public int getPositionY() {
+        return positionY;
+    }
+
     public TileType getType() {
         return tileType;
     }

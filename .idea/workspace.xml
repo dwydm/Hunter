@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Implementacja MyArrayList">
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Hunter, implemented player movement and win conditions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Board/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Board/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Board/Tile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Board/TileType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Board/TileType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Hunter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/HunterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/HunterDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Items/ComputerPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Items/ComputerPiece.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Items/PlayerPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Items/PlayerPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Items/PlayingPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Items/PlayablePiece.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,18 +44,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projekty/Java/Advanced_SDA/src/main/java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Projekty/Java/Advanced_SDA/src/main/java",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Font"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Cwiczenia.Hunter" />
@@ -365,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657217329412</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Hunter, implemented player movement and win conditions">
+      <created>1657231893894</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1657231893894</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -380,7 +382,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dodanie klas wprojekcie Dom" />
     <MESSAGE value="dodane toString" />
     <MESSAGE value="poprawki w klasie Linia i FabrykaLinii, FabrykaLinii zwraca teraz obiekt Linia" />
     <MESSAGE value="rozbudowa zadania Dom o klasę Enum StanOkna, dodano getter do interakcji z listą okien" />
@@ -405,7 +406,8 @@
     <MESSAGE value="Update Hunter, wyświetlanie graczy i obiektów na mapie" />
     <MESSAGE value="Update Hunter, update tekstu" />
     <MESSAGE value="Implementacja MyArrayList" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementacja MyArrayList" />
+    <MESSAGE value="Hunter, implemented player movement and win conditions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hunter, implemented player movement and win conditions" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
