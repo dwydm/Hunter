@@ -18,6 +18,7 @@ public class Hunter {
 
     private final static int NUMBER_OF_AGENTS = 3;
     private List<ComputerPiece> agents = new ArrayList<>(NUMBER_OF_AGENTS);
+    private List<String> playerMoves = new ArrayList<>();
     private static Board gameBoard;
     private static int globalTurn = 1;
     private PlayablePiece player;
@@ -45,10 +46,17 @@ public class Hunter {
 
     private void displayGameOverMsg(boolean isPlayerAWinner) {
         if (isPlayerAWinner) {
-            System.out.println("\n\n\n\t\t\t\tCONGRATULATIONS!\n\n\n\n");
+            System.out.println("\n\n\n\t\t\t\t\tCONGRATULATIONS!\n\n");
         } else {
-            System.out.println("\n\n\n\t\t\t\t\tGAME OVER\n\n\n\n");
+            System.out.println("\n\n\n\t\t\t\t\t\tGAME OVER\n\n");
         }
+/*        for (int i = 1; i <= playerMoves.size(); i++) { //TODO: wyświetlanie ruchów gracza po sesji
+            System.out.print(playerMoves.get(i-1) + "\t\t");
+            if(i % 4 == 0) {
+                System.out.println();
+            }
+        }
+        System.out.println();*/
     }
 
     private void placePlayingPiecesOnBoard() {
@@ -110,30 +118,36 @@ public class Hunter {
     }
 
     private void playerSetDirection(String[] playerMovementArray) {
+        String moves = "Turn: " + globalTurn + " Moves:";
         for (String direction : playerMovementArray) {
             int posX = player.getPositionX();
             int posY = player.getPositionY();
             switch (direction.toUpperCase()) {
                 case "W":
                     posY += (-1);
+                    moves += " " + direction;
                     playablePieceMove(player, posX, posY);
                     break;
                 case "S":
                     posY += 1;
+                    moves += " " + direction;
                     playablePieceMove(player, posX, posY);
                     break;
                 case "A":
                     posX += (-1);
+                    moves += " " + direction;
                     playablePieceMove(player, posX, posY);
                     break;
                 case "D":
                     posX += 1;
+                    moves += " " + direction;
                     playablePieceMove(player, posX, posY);
                     break;
                 default:
 
             }
         }
+        playerMoves.add(moves);
     }
 
     private void playablePieceMove(PlayablePiece playablePiece, int posX, int posY) {

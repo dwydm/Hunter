@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Hunter, implemented Computer logic nad movement">
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Hunter 1.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Board/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Hunter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Items/PlayerPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Items/PlayerPiece.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -374,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657265257164</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Hunter 1.0">
+      <created>1657268729822</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1657268729822</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -389,7 +394,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="poprawki w klasie Linia i FabrykaLinii, FabrykaLinii zwraca teraz obiekt Linia" />
     <MESSAGE value="rozbudowa zadania Dom o klasę Enum StanOkna, dodano getter do interakcji z listą okien" />
     <MESSAGE value="dodano zadanie workshop" />
     <MESSAGE value="poprawione losowanie liczby uszkodzonych opon w klasie Car" />
@@ -414,7 +418,8 @@
     <MESSAGE value="Implementacja MyArrayList" />
     <MESSAGE value="Hunter, implemented player movement and win conditions" />
     <MESSAGE value="Hunter, implemented Computer logic nad movement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hunter, implemented Computer logic nad movement" />
+    <MESSAGE value="Hunter 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hunter 1.0" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
