@@ -13,12 +13,6 @@ public class HunterDemo {
 
     public static void main(String[] args) {
         hunterMenu();
-/*        Hunter hunter = new Hunter();
-        Board board = Board.getBoard();
-
-        board.cleanBoard();
-        board.displayBoard();
-        hunter.printPlayerInstruction();*/
 
     }
 
@@ -44,23 +38,6 @@ public class HunterDemo {
 
         } while (loopMenuAgain);
     }
-
-
-/*      //work in progress, zapisywanie wyników do pliku
-
-        private String getReturningPlayer() {
-        File saveFile = new File("src/main/java/Cwiczenia/Hunter/Save/Player.hnt");
-        if(!saveFile.exists()) {
-            try {
-                FileWriter fileWriter = new FileWriter("src/main/java/Cwiczenia/Hunter/Save/Players.hnt");
-                fileWriter.write("*** SAVE FILE ***",0,0);
-            } catch (IOException e) {
-                System.out.println("Unable to create a file");
-            }
-        }
-        Scanner scn = new Scanner();
-
-    }*/
 
 
 }

@@ -2,7 +2,8 @@ package Cwiczenia.Hunter.Items;
 
 public class PlayerPiece extends PlayablePiece {
 
-    public PlayerPiece(String playerSymbol) { //TODO: usunąć niedozwolone symbole z nazwy gracza
+    public PlayerPiece(String playerSymbol) {
+        playerSymbol = playerSymbol.replaceAll("\\W", "P");
         setPlayablePieceSymbol("[" + playerSymbol + "]");
     }
 

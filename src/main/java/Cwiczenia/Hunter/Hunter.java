@@ -186,9 +186,12 @@ public class Hunter {
             for (Tile tile : tiles) {
                 if (tile == null || tile.getType() == TileType.WALL) {
                     continue;
-                } else if (tile.isOccupied() && !isFriendly(agent, tile.getPlayablePiece())) {
+                } else if (tile.isOccupied() && !isFriendly(agent, tile.getPlayablePiece()) && isInMovementRange(agent,tile)) {
+                    if(tile.getType() == TileType.HEDGE) {      //ignoruje gracza w krzakach
+                        continue;
+                    }
                     return tile;
-                } else if (!tile.isOccupied() && tile.getType().isTraversable()) {
+                } else if (!tile.isOccupied() && isInMovementRange(agent,tile) &&tile.getType().isTraversable()) {
                     viableMoves.add(tile);
                 }
             }
@@ -198,6 +201,16 @@ public class Hunter {
             return viableMoves.get(0);
         }
         return gameBoard.getTileContainingObject(agent);
+    }
+
+    private boolean isInMovementRange(ComputerPiece agent, Tile destinationTile) {      //zapobiega bieganiu agentów po skosie
+        int agentPos = agent.getPositionY() + agent.getPositionX();
+        int tilePos = destinationTile.getPositionY() + destinationTile.getPositionX();
+        if(agentPos - tilePos == 1 || agentPos - tilePos == -1) {
+            return true;
+        }
+
+        return false;
     }
 
     private boolean isFriendly(PlayablePiece attacker, PlayablePiece deffender) {

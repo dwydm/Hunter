@@ -118,7 +118,7 @@ public class Board {
                 System.out.print("\t\t= - wall, players are unable to walk through it ");
             }
             if (i == 6) {
-                System.out.print("\t\t>>> Plan your 2 moves ahead, typing W,S,A or D separated with space ' '");
+                System.out.print("\t\t>>> Plan up to 2 moves ahead, typing W,S,A or D separated with space ' '");
             }
             if (i == 7) {
                 System.out.print("\t\t>>> Example input: \"W D\", step on a tile with enemy agents to take them out");
