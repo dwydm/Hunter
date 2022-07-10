@@ -202,6 +202,7 @@ public class Hunter {
                     continue;
                 } else if (tile.isOccupied() && !isFriendly(agent, tile.getPlayablePiece()) && isInMovementRange(agent,tile)) {
                     if(tile.getType() == TileType.HEDGE) {      //ignoruje gracza w krzakach
+                        viableMoves.add(tile);                  //dodaje możliwość losowego trafienia gracza w krzakach
                         continue;
                     }
                     return tile;
