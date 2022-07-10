@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Hunter 1.0">
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Hunter gathering player moves">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/HotelService/Guest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/HotelService/Hotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/HotelService/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/HotelService/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Hunter/Hunter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,18 +45,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Projekty/Java/Advanced_SDA/src/main/java",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Font"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projekty/Java/Advanced_SDA/src/main/java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Font&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Cwiczenia.Hunter" />
@@ -379,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657268729822</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Hunter gathering player moves">
+      <created>1657277895031</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1657277895031</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -394,7 +404,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rozbudowa zadania Dom o klasę Enum StanOkna, dodano getter do interakcji z listą okien" />
     <MESSAGE value="dodano zadanie workshop" />
     <MESSAGE value="poprawione losowanie liczby uszkodzonych opon w klasie Car" />
     <MESSAGE value="Poczta part 1" />
@@ -419,7 +428,8 @@
     <MESSAGE value="Hunter, implemented player movement and win conditions" />
     <MESSAGE value="Hunter, implemented Computer logic nad movement" />
     <MESSAGE value="Hunter 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hunter 1.0" />
+    <MESSAGE value="Hunter gathering player moves" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hunter gathering player moves" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
