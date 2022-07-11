@@ -43,15 +43,16 @@ public class MyArrayList<E> implements List<E> {
     @Override
     public boolean add(E e) {
         if(internalArray.length == myArrayListSize) {
-            internalArray = expandArray();
+            internalArray = grow();
         }
-        myArrayListSize++;
         internalArray[myArrayListSize] = e;
+        myArrayListSize++;
         return false;
     }
 
     @Override
     public boolean remove(Object o) {
+        //TODO: dokończyć remove
 
 
         return false;
@@ -104,9 +105,12 @@ public class MyArrayList<E> implements List<E> {
 
     @Override
     public void add(int index, E element) {
-        if(myArrayListSize < internalArray.length - 1) {
-            E [] tempArray = (E[]) new Object[internalArray.length];
+        if(myArrayListSize == internalArray.length) {
+            internalArray = grow();
         }
+        //TODO: dodanie do listy pod indexem
+
+
 
     }
 
@@ -141,7 +145,7 @@ public class MyArrayList<E> implements List<E> {
     }
 
 
-    private E[] expandArray() {
+    private E[] grow() {
         E[] newList = (E[]) new Object[(myArrayListSize * 2) + 1];
         for (int i = 0; i < internalArray.length; i++) {
             newList[i] = internalArray[i];
