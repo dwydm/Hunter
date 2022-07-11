@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Hunter gathering player moves">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/HotelService/Guest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/HotelService/Hotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/HotelService/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/HotelService/UserService.java" afterDir="false" />
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Hunter, Hedge tiles containing player, added to agent's random movement list">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/HotelService/HotelServiceDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/HotelService/Guest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/HotelService/Guest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/HotelService/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/HotelService/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/HotelService/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/HotelService/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/HotelService/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/HotelService/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="pop2" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,22 +63,7 @@
       <recent name="Cwiczenia.Hunter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HunterDemo">
-    <configuration name="CitizenDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="18" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Cwiczenia.Citizen.CitizenDemo" />
-      <module name="Advanced_SDA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Cwiczenia.Citizen.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.HotelServiceDemo">
     <configuration name="ExceptionsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -86,6 +72,21 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Dzien5.ConnectionException.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelServiceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Cwiczenia.HotelService.HotelServiceDemo" />
+      <module name="Advanced_SDA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Cwiczenia.HotelService.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,10 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HunterDemo" />
-        <item itemvalue="Application.Input" />
+        <item itemvalue="Application.HotelServiceDemo" />
         <item itemvalue="Application.LineDemo" />
-        <item itemvalue="Application.CitizenDemo" />
+        <item itemvalue="Application.Input" />
+        <item itemvalue="Application.HunterDemo" />
+        <item itemvalue="Application.ExceptionsDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -382,14 +384,7 @@
       <option name="project" value="LOCAL" />
       <updated>1657268729822</updated>
     </task>
-    <task id="LOCAL-00032" summary="Hunter gathering player moves">
-      <created>1657277895031</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1657277895031</updated>
-    </task>
-    <option name="localTasksCounter" value="33" />
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -404,6 +399,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="rozbudowa zadania Dom o klasę Enum StanOkna, dodano getter do interakcji z listą okien" />
     <MESSAGE value="dodano zadanie workshop" />
     <MESSAGE value="poprawione losowanie liczby uszkodzonych opon w klasie Car" />
     <MESSAGE value="Poczta part 1" />
@@ -428,8 +424,7 @@
     <MESSAGE value="Hunter, implemented player movement and win conditions" />
     <MESSAGE value="Hunter, implemented Computer logic nad movement" />
     <MESSAGE value="Hunter 1.0" />
-    <MESSAGE value="Hunter gathering player moves" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hunter gathering player moves" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hunter 1.0" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
