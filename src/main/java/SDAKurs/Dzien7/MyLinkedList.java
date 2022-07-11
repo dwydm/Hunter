@@ -1,13 +1,15 @@
 package SDAKurs.Dzien7;
 
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
+import java.util.*;
+import java.util.function.Consumer;
+import java.util.function.IntFunction;
+import java.util.function.Predicate;
+import java.util.function.UnaryOperator;
+import java.util.stream.Stream;
 
-public class MyLinkedList<E> implements List {
+public class MyLinkedList<E> implements List<E> {
 
-    private LinkedNode<E> headNode;
+    private LinkedNode<E> headNode = null;
     private int internalSize = 0;
 
 
@@ -26,18 +28,22 @@ public class MyLinkedList<E> implements List {
         return false;
     }
 
-    @Override
-    public Iterator iterator() {
-        return null;
-    }
 
     @Override
-    public Object[] toArray() {
-        return new Object[0];
-    }
+    public boolean add(E e) {
+        LinkedNode<E> node = new LinkedNode<>(e);
+        if(headNode == null) {
+            headNode = node;
 
-    @Override
-    public boolean add(Object o) {
+            return true;
+        }
+        LinkedNode<E> currentNode = headNode;
+
+            while (currentNode.nextPointer != null) {
+                currentNode.nextPointer = node;
+                node.previousPointer = currentNode;
+            }
+
         return false;
     }
 
@@ -47,28 +53,20 @@ public class MyLinkedList<E> implements List {
     }
 
     @Override
-    public boolean addAll(Collection c) {
-        return false;
-    }
-
-    @Override
-    public boolean addAll(int index, Collection c) {
-        return false;
-    }
-
-    @Override
     public void clear() {
 
     }
 
     @Override
-    public Object get(int index) {
-        return null;
-    }
-
-    @Override
-    public Object set(int index, Object element) {
-        return null;
+    public E get(int index) {
+        if(index > internalSize || headNode == null) {
+            return null;
+        }
+        LinkedNode<E> tempNode = headNode;
+        for (int i = 0; i < index; i++) {
+            tempNode = tempNode.nextPointer;
+        }
+        return tempNode.item;
     }
 
     @Override
@@ -77,8 +75,38 @@ public class MyLinkedList<E> implements List {
     }
 
     @Override
-    public Object remove(int index) {
+    public E remove(int index) {
         return null;
+    }
+
+    @Override
+    public E set(int index, Object element) {
+        return null;
+    }
+
+    @Override
+    public boolean addAll(Collection c) {
+        return false;
+    }
+
+    @Override
+    public boolean removeIf(Predicate filter) {
+        return List.super.removeIf(filter);
+    }
+
+    @Override
+    public boolean addAll(int index, Collection c) {
+        return false;
+    }
+
+    @Override
+    public void replaceAll(UnaryOperator operator) {
+        List.super.replaceAll(operator);
+    }
+
+    @Override
+    public void sort(Comparator c) {
+        List.super.sort(c);
     }
 
     @Override
@@ -107,6 +135,21 @@ public class MyLinkedList<E> implements List {
     }
 
     @Override
+    public Spliterator spliterator() {
+        return List.super.spliterator();
+    }
+
+    @Override
+    public Stream stream() {
+        return List.super.stream();
+    }
+
+    @Override
+    public Stream parallelStream() {
+        return List.super.parallelStream();
+    }
+
+    @Override
     public boolean retainAll(Collection c) {
         return false;
     }
@@ -125,4 +168,39 @@ public class MyLinkedList<E> implements List {
     public Object[] toArray(Object[] a) {
         return new Object[0];
     }
+
+    @Override
+    public Iterator iterator() {
+        return null;
+    }
+
+    @Override
+    public void forEach(Consumer action) {
+        List.super.forEach(action);
+    }
+
+    @Override
+    public Object[] toArray() {
+        return new Object[0];
+    }
+
+    @Override
+    public Object[] toArray(IntFunction generator) {
+        return List.super.toArray(generator);
+    }
+    class LinkedNode<E> {
+
+
+        private E item;
+        private LinkedNode<E> previousPointer;
+        private LinkedNode<E> nextPointer;
+
+        private LinkedNode(E e) {
+            item = e;
+        }
+
+
+    }
+
+
 }

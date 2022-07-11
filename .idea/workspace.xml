@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Hunter 1.0">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien7/LinkedNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien7/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SDAKurs/Dzien7/MyLinkedListTest.java" afterDir="false" />
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="LinkedList basic setup">
+      <change afterPath="$PROJECT_DIR$/src/test/java/SDAKurs/Dzien7/ListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien6/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien6/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien7/LinkedNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien7/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien7/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SDAKurs/Dzien7/MyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SDAKurs/Dzien7/MyLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +22,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -65,23 +65,14 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Cwiczenia.Hunter" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="SDAKurs.Dzien7" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.CitizenDemo">
-    <configuration name="CitizenDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="18" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Cwiczenia.Citizen.CitizenDemo" />
-      <module name="Advanced_SDA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Cwiczenia.Citizen.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MyLinkedListTest">
     <configuration name="ExceptionsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -151,13 +142,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Advanced_SDA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDAKurs.Dzien7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SDAKurs.Dzien7" />
+      <option name="MAIN_CLASS_NAME" value="SDAKurs.Dzien7.MyLinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyLinkedListTest" />
         <item itemvalue="Application.LineDemo" />
         <item itemvalue="Application.Input" />
         <item itemvalue="Application.FamilyDemo" />
         <item itemvalue="Application.ExceptionsDemo" />
-        <item itemvalue="Application.CitizenDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +393,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657268729822</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="LinkedList basic setup">
+      <created>1657555871624</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1657555871624</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -402,7 +415,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rozbudowa zadania Dom o klasę Enum StanOkna, dodano getter do interakcji z listą okien" />
     <MESSAGE value="dodano zadanie workshop" />
     <MESSAGE value="poprawione losowanie liczby uszkodzonych opon w klasie Car" />
     <MESSAGE value="Poczta part 1" />
@@ -427,7 +439,8 @@
     <MESSAGE value="Hunter, implemented player movement and win conditions" />
     <MESSAGE value="Hunter, implemented Computer logic nad movement" />
     <MESSAGE value="Hunter 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hunter 1.0" />
+    <MESSAGE value="LinkedList basic setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkedList basic setup" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
