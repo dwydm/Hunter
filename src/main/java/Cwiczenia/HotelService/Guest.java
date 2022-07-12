@@ -1,6 +1,7 @@
 package Cwiczenia.HotelService;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class Guest {
     private String name;
@@ -11,5 +12,11 @@ public class Guest {
         this.name = name;
         this.surname = surname;
         this.dateOfBirth = dateOfBirth;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Name: " + name + " Surname: " + surname + " DoB: " + dateOfBirth.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
     }
 }
