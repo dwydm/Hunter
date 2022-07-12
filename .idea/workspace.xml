@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="LinkedList incomplete add" />
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Hotel Service">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/EscapeRoomDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Items/Door.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Items/InteractableItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Items/Key.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Items/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -384,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657549958304</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Hotel Service">
+      <created>1657639669402</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1657639669402</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -399,7 +414,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dodano zadanie workshop" />
     <MESSAGE value="poprawione losowanie liczby uszkodzonych opon w klasie Car" />
     <MESSAGE value="Poczta part 1" />
     <MESSAGE value="Dodano metodę Menu oraz klasy POLetter oraz Address" />
@@ -424,7 +438,8 @@
     <MESSAGE value="Hunter, implemented Computer logic nad movement" />
     <MESSAGE value="Hunter 1.0" />
     <MESSAGE value="Hotel Service, implemented random room and guest initialization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hotel Service, implemented random room and guest initialization" />
+    <MESSAGE value="Hotel Service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hotel Service" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
