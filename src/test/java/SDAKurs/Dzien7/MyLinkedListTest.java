@@ -8,5 +8,6 @@ class MyLinkedListTest extends ListTest {
 
     public MyLinkedListTest(List<Integer> elements) {
         super(new MyLinkedList<>());
+
     }
 }
