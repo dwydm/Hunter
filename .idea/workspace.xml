@@ -4,20 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Escape Room, advanced menu">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/ERLauncher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/Door.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/InteractableObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/Key.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/Window.java" afterDir="false" />
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Escape Room, reverting changes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/InteractableItemNotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/EscapeRoomDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/ERLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/ERLauncher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/EventDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/EventDirector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Items/Door.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Items/InteractableItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Items/Key.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Items/Window.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/Door.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/Door.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/InteractableObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/InteractableItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/Key.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/Key.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/Window.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Room.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +67,7 @@
       <recent name="Cwiczenia.Hunter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Cwiczenia.EscapeRoom.EscapeRoomDemo">
+  <component name="RunManager" selected="Application.ERLauncher">
     <configuration name="Cwiczenia.EscapeRoom.EscapeRoomDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -102,14 +98,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HunterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ERLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Cwiczenia.Hunter.HunterDemo" />
+      <option name="MAIN_CLASS_NAME" value="Cwiczenia.EscapeRoom.ERLauncher" />
       <module name="Advanced_SDA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Cwiczenia.Hunter.*" />
+          <option name="PATTERN" value="Cwiczenia.EscapeRoom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ERLauncher" />
         <item itemvalue="Application.Cwiczenia.EscapeRoom.EscapeRoomDemo" />
         <item itemvalue="Application.Cwiczenia.HotelService.HotelServiceDemo" />
         <item itemvalue="Application.LineDemo" />
         <item itemvalue="Application.Input" />
-        <item itemvalue="Application.HunterDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -413,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657646890947</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Escape Room, reverting changes">
+      <created>1657832014495</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1657832014495</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -428,7 +431,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Poczta part 1" />
     <MESSAGE value="Dodano metodę Menu oraz klasy POLetter oraz Address" />
     <MESSAGE value="Zadanie Highway" />
     <MESSAGE value="Zadanie 2 + Dzien3 kolekcje" />
@@ -453,7 +455,8 @@
     <MESSAGE value="Hotel Service, implemented random room and guest initialization" />
     <MESSAGE value="Hotel Service" />
     <MESSAGE value="Escape Room, planning" />
-    <option name="LAST_COMMIT_MESSAGE" value="Escape Room, planning" />
+    <MESSAGE value="Escape Room, reverting changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Escape Room, reverting changes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

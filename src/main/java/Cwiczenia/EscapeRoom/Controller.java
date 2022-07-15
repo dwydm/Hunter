@@ -14,11 +14,14 @@ public class Controller {
 
         do {
             Scanner scn = new Scanner(System.in);
-            System.out.print("Choose an action: ");
-            switch(scn.nextLine()) {
-                case "1":
-                    break;
-
+            System.out.println(eventDirector.displpayInteractableItems());
+            System.out.print("Use an item: ");
+            try {
+                eventDirector.useInteractableItem(scn.nextLine());
+            } catch (InteractableItemNotFoundException e) {
+                System.out.println("\n" + e.getMessage());
+            } catch (NumberFormatException e) {
+                System.out.println("\n" + "Invalid input");
             }
 
         } while(isMenuLooping);

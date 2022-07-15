@@ -1,6 +1,10 @@
 package Cwiczenia.EscapeRoom.Objects;
 
-public class Key extends InteractableObject {
+import java.awt.desktop.AppReopenedEvent;
+
+public class Key extends InteractableItem {
+
+    private Door lock;
 
     @Override
     public void use() {

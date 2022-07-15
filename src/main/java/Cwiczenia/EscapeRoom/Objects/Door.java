@@ -1,6 +1,6 @@
 package Cwiczenia.EscapeRoom.Objects;
 
-public class Door extends InteractableObject {
+public class Door extends InteractableItem {
 
     private Key keyHole;
 

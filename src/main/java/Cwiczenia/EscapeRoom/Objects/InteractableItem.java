@@ -1,6 +1,6 @@
 package Cwiczenia.EscapeRoom.Objects;
 
-public abstract class InteractableObject {
+public abstract class InteractableItem {
 
     private boolean interactionFlag;
     private boolean shouldBeDisplayed = true;
@@ -19,6 +19,8 @@ public abstract class InteractableObject {
         shouldBeDisplayed = shouldDisplay;
     }
 
-
-
+    @Override
+    public String toString() {
+        return getClass().getSimpleName();
+    }
 }
