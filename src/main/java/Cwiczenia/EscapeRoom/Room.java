@@ -11,11 +11,20 @@ import java.util.List;
 
 public class Room {
 
-    List<InteractableItem> roomItemList = new ArrayList<InteractableItem>(Arrays.asList(new Window(), new Key(), new Door()));
+    private List<InteractableItem> roomItemList = new ArrayList<InteractableItem>(Arrays.asList(new Window(), new Key(true), new Door()));
+    private InteractableItem pickedUpItem;
 
 
     public List<InteractableItem> getRoomItemList() {
         return roomItemList;
     }
 
+
+    public InteractableItem getPickedUpItem() {
+        return pickedUpItem;
+    }
+
+    public void setPickedUpItem(InteractableItem pickedUpItem) {
+        this.pickedUpItem = pickedUpItem;
+    }
 }

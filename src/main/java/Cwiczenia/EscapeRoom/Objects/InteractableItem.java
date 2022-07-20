@@ -4,11 +4,20 @@ public abstract class InteractableItem {
 
     private boolean interactionFlag;
     private boolean shouldBeDisplayed = true;
+    private boolean pickupable;
 
-    public abstract void use();
+    public abstract String use();
 
     public boolean getInteractionFlag() {
         return interactionFlag;
+    }
+
+    public boolean isPickupable() {
+        return pickupable;
+    }
+
+    protected void setPickupable(boolean pickupable){
+        this.pickupable = pickupable;
     }
 
     protected void switchInteractionFlag() {

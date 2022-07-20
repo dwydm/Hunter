@@ -14,10 +14,16 @@ public class Controller {
 
         do {
             Scanner scn = new Scanner(System.in);
-            System.out.println(eventDirector.displpayInteractableItems());
+            System.out.println(eventDirector.getRoomInteractableItems());
             System.out.print("Use an item: ");
             try {
-                eventDirector.useInteractableItem(scn.nextLine());
+                int userInput = eventDirector.inputValidator(scn.nextLine());
+                if(userInput < 0 ) {
+                    isMenuLooping = false;
+                } else {
+                    String outputMessage = eventDirector.useInteractableItem(userInput);
+                    System.out.println(outputMessage);
+                }
             } catch (InteractableItemNotFoundException e) {
                 System.out.println("\n" + e.getMessage());
             } catch (NumberFormatException e) {

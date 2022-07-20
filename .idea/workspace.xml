@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Escape Room, reverting changes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/InteractableItemNotFoundException.java" afterDir="false" />
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Escape Room">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/ERLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/ERLauncher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/EventDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/EventDirector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/Door.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/Door.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/InteractableObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/InteractableItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/InteractableItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/InteractableItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/Key.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/Key.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/Window.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Room.java" afterDir="false" />
@@ -416,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657832014495</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Escape Room, menu exceptions added, simplified choices">
+      <created>1657867133738</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1657867133738</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -431,7 +436,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dodano metodę Menu oraz klasy POLetter oraz Address" />
     <MESSAGE value="Zadanie Highway" />
     <MESSAGE value="Zadanie 2 + Dzien3 kolekcje" />
     <MESSAGE value="Zadanie 2 dodano klasy Staff, Student oraz klasę PersonDemo" />
@@ -456,7 +460,8 @@
     <MESSAGE value="Hotel Service" />
     <MESSAGE value="Escape Room, planning" />
     <MESSAGE value="Escape Room, reverting changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Escape Room, reverting changes" />
+    <MESSAGE value="Escape Room, menu exceptions added, simplified choices" />
+    <option name="LAST_COMMIT_MESSAGE" value="Escape Room, menu exceptions added, simplified choices" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
