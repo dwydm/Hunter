@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Escape Room">
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Escape Room, added conditions to Key and Door class, methods are returning Strings to Controller class now">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Tests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/EventDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/EventDirector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/Door.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/Door.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/InteractableItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/InteractableItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/Key.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/Key.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Room.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +59,7 @@
       <recent name="Cwiczenia.Hunter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ERLauncher">
+  <component name="RunManager" selected="Application.Tests">
     <configuration name="Cwiczenia.EscapeRoom.EscapeRoomDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -111,21 +105,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Input" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="18" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Dzien5.ExceptionsExample.Input" />
-      <module name="Advanced_SDA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Dzien5.ExceptionsExample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LineDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -134,6 +113,21 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Extra.OOP.Zad5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="SDAKurs.Tests" />
+      <module name="Advanced_SDA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDAKurs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tests" />
         <item itemvalue="Application.ERLauncher" />
         <item itemvalue="Application.Cwiczenia.EscapeRoom.EscapeRoomDemo" />
         <item itemvalue="Application.Cwiczenia.HotelService.HotelServiceDemo" />
         <item itemvalue="Application.LineDemo" />
-        <item itemvalue="Application.Input" />
       </list>
     </recent_temporary>
   </component>
@@ -421,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657867133738</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Escape Room, added conditions to Key and Door class, methods are returning Strings to Controller class now">
+      <created>1658322230823</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1658322230823</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -436,7 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Zadanie Highway" />
     <MESSAGE value="Zadanie 2 + Dzien3 kolekcje" />
     <MESSAGE value="Zadanie 2 dodano klasy Staff, Student oraz klasę PersonDemo" />
     <MESSAGE value="Polimorfizm" />
@@ -461,7 +461,8 @@
     <MESSAGE value="Escape Room, planning" />
     <MESSAGE value="Escape Room, reverting changes" />
     <MESSAGE value="Escape Room, menu exceptions added, simplified choices" />
-    <option name="LAST_COMMIT_MESSAGE" value="Escape Room, menu exceptions added, simplified choices" />
+    <MESSAGE value="Escape Room, added conditions to Key and Door class, methods are returning Strings to Controller class now" />
+    <option name="LAST_COMMIT_MESSAGE" value="Escape Room, added conditions to Key and Door class, methods are returning Strings to Controller class now" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
