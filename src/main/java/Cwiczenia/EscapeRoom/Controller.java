@@ -2,40 +2,39 @@ package Cwiczenia.EscapeRoom;
 
 import java.util.Scanner;
 
-public class Controller {
+public abstract class Controller {
 
     private EventDirector eventDirector = new EventDirector();
     private boolean isMenuLooping = true;
 
     public void startGame() {
-        System.out.println("Let's play a game");
-        System.out.println("You're in a dim lit room");
-        System.out.println("Fortunately you're able to see some familiar shapes of particular objects");
 
+        displayOnScreen("""
+                Let's play a game
+                You're in a dim lit room
+                Fortunately you're able to see some familiar shapes of particular objects
+                """);
         do {
-            Scanner scn = new Scanner(System.in);
-            System.out.println(eventDirector.getRoomInteractableItems());
-            System.out.print("Use an item: ");
+            displayOnScreen(eventDirector.getRoomInteractableItems());
             try {
-                int userInput = eventDirector.inputValidator(scn.nextLine());
+                int userInput = eventDirector.inputValidator(saveUserInput("Use an item: "));
                 if(userInput < 0 ) {
                     isMenuLooping = false;
                 } else {
                     String outputMessage = eventDirector.useInteractableItem(userInput);
-                    System.out.println(outputMessage);
+                    displayOnScreen(outputMessage);
                 }
             } catch (InteractableItemNotFoundException e) {
-                System.out.println("\n" + e.getMessage());
+                displayOnScreen("\n" + e.getMessage());
             } catch (NumberFormatException e) {
-                System.out.println("\n" + "Invalid input");
+                displayOnScreen("\n" + "Invalid input");
             }
 
         } while(isMenuLooping);
     }
 
-
-
-
+    public abstract void displayOnScreen(String message);
+    public abstract String saveUserInput(String message);
 
 
 }

@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Escape Room, added conditions to Key and Door class, methods are returning Strings to Controller class now">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Tests.java" afterDir="false" />
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Escape Room, additional UI">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/ControllerWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/ControllerConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/ControllerConsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/ERLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/ERLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/EventDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/EventDirector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="EscRoom2" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,8 +62,11 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Cwiczenia.Hunter" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Cwiczenia.EscapeRoom.Objects" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Tests">
+  <component name="RunManager" selected="Application.ERLauncher">
     <configuration name="Cwiczenia.EscapeRoom.EscapeRoomDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -146,8 +153,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Tests" />
         <item itemvalue="Application.ERLauncher" />
+        <item itemvalue="Application.Tests" />
         <item itemvalue="Application.Cwiczenia.EscapeRoom.EscapeRoomDemo" />
         <item itemvalue="Application.Cwiczenia.HotelService.HotelServiceDemo" />
         <item itemvalue="Application.LineDemo" />
@@ -422,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658322230823</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Escape Room, additional UI">
+      <created>1658429360198</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1658429360198</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -437,7 +451,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Zadanie 2 + Dzien3 kolekcje" />
     <MESSAGE value="Zadanie 2 dodano klasy Staff, Student oraz klasę PersonDemo" />
     <MESSAGE value="Polimorfizm" />
     <MESSAGE value="Citizens" />
@@ -462,7 +475,8 @@
     <MESSAGE value="Escape Room, reverting changes" />
     <MESSAGE value="Escape Room, menu exceptions added, simplified choices" />
     <MESSAGE value="Escape Room, added conditions to Key and Door class, methods are returning Strings to Controller class now" />
-    <option name="LAST_COMMIT_MESSAGE" value="Escape Room, added conditions to Key and Door class, methods are returning Strings to Controller class now" />
+    <MESSAGE value="Escape Room, additional UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Escape Room, additional UI" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

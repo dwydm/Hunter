@@ -19,7 +19,7 @@ public class EventDirector {
     public int inputValidator(String userInput) throws InteractableItemNotFoundException, NumberFormatException {
         int itemIndex = Integer.parseInt(userInput) - 1;
 
-        if (itemIndex > room.getRoomItemList().size() || itemIndex < -1) {
+        if (itemIndex >= room.getRoomItemList().size() || itemIndex < -1) {
             throw new InteractableItemNotFoundException("There is no such item in the room");
         }
         return itemIndex;
