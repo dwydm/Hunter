@@ -25,7 +25,7 @@ public class Door extends InteractableItem {
     public String unlockDoor(Key key) {
         this.key = key;
         isUnlocked = true;
-        return "Rusty key makes rattling sound in a lock, the door is unlocked now";
+        return "Sound of the key grinding in the lock, spreads across the room, the door is unlocked now";
     }
 
     public boolean isUnlocked() {

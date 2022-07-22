@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Escape Room, additional UI">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/ControllerWindow.java" afterDir="false" />
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Escape Room, added simple frame UI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/ControllerConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/ControllerConsole.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/ERLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/ERLauncher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/EventDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/EventDirector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/Door.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Objects/Door.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
