@@ -2,16 +2,16 @@ package Cwiczenia.EscapeRoom;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 
 public class ControllerWindow extends Controller {
     JFrame frame = new JFrame();
 
+
     public ControllerWindow() {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setBackground(Color.ORANGE);
     }
-
-
 
     @Override
     public void displayOnScreen(String message) {
