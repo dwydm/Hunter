@@ -1,14 +1,9 @@
 package Cwiczenia.Snake;
 
-import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-import java.awt.image.BufferedImage;
-import java.awt.image.ImageObserver;
-import java.io.File;
-import java.io.IOException;
 import java.util.Arrays;
 import java.util.Random;
 
@@ -42,7 +37,7 @@ public class SnakePanel extends JPanel implements ActionListener {
     }
 
     public void startGame() {
-        Arrays.fill(ySnake,SCORE_TAB);
+        Arrays.fill(ySnake, SCORE_TAB);
         newApple();
         running = true;
         timer = new Timer(DELAY, this);
@@ -55,16 +50,16 @@ public class SnakePanel extends JPanel implements ActionListener {
     }
 
     public void draw(Graphics g) {
-        if(!running) {
+        if (!running) {
             gameOver(g);
             return;
         }
 
         //score
-        g.setFont(new Font("Brandish",Font.BOLD,30));
+        g.setFont(new Font("Brandish", Font.BOLD, 30));
         g.setColor(Color.BLACK);
         FontMetrics metrics = getFontMetrics(g.getFont());
-        g.drawString(("SCORE: " + applesEaten),(SCREEN_WIDTH - metrics.stringWidth("SCORE: "))/2,(int) (SCORE_TAB/2));
+        g.drawString(("SCORE: " + applesEaten), (SCREEN_WIDTH - metrics.stringWidth("SCORE: ")) / 2, (int) (SCORE_TAB / 2));
 
         //playable grid
         g.setColor(new Color(77, 227, 24));
@@ -91,8 +86,8 @@ public class SnakePanel extends JPanel implements ActionListener {
 
 
     public void newApple() {
-            appleX = random.nextInt((int) (SCREEN_WIDTH / UNIT_SIZE)) * UNIT_SIZE;
-            appleY = (random.nextInt((int) (SCREEN_HEIGHT / UNIT_SIZE)) * UNIT_SIZE) + SCORE_TAB;
+        appleX = random.nextInt((int) (SCREEN_WIDTH / UNIT_SIZE)) * UNIT_SIZE;
+        appleY = (random.nextInt((int) (SCREEN_HEIGHT / UNIT_SIZE)) * UNIT_SIZE) + SCORE_TAB;
 
     }
 
@@ -152,14 +147,14 @@ public class SnakePanel extends JPanel implements ActionListener {
 
     public void gameOver(Graphics g) {
         g.setColor(new Color(220, 216, 7));
-        g.setFont(new Font("Brandish",Font.BOLD,40));
+        g.setFont(new Font("Brandish", Font.BOLD, 40));
         FontMetrics gameOverMetrics = getFontMetrics(g.getFont());
-        g.drawString("GAME OVER", (SCREEN_WIDTH - gameOverMetrics.stringWidth("GAME OVER"))/2 - UNIT_SIZE, SCREEN_HEIGHT/2 - UNIT_SIZE);
+        g.drawString("GAME OVER", (SCREEN_WIDTH - gameOverMetrics.stringWidth("GAME OVER")) / 2 - UNIT_SIZE, SCREEN_HEIGHT / 2 - UNIT_SIZE);
 
-        g.setFont(new Font("Brandish",Font.BOLD,25));
+        g.setFont(new Font("Brandish", Font.BOLD, 25));
         g.setColor(new Color(215, 17, 59));
         FontMetrics scoreMetrics = getFontMetrics(g.getFont());
-        g.drawString(("FINAL SCORE: " + applesEaten),(SCREEN_WIDTH - scoreMetrics.stringWidth("FINAL SCORE: "))/2 - UNIT_SIZE,SCREEN_HEIGHT/2 + UNIT_SIZE);
+        g.drawString(("FINAL SCORE: " + applesEaten), (SCREEN_WIDTH - scoreMetrics.stringWidth("FINAL SCORE: ")) / 2 - UNIT_SIZE, SCREEN_HEIGHT / 2 + UNIT_SIZE);
 
     }
 
