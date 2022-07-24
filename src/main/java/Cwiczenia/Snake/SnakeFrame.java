@@ -1,6 +1,7 @@
 package Cwiczenia.Snake;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class SnakeFrame extends JFrame {
 
