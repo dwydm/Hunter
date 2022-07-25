@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Guided simple snake game">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Snake/SnakeFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Snake/SnakeFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Snake/SnakePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Snake/SnakePanel.java" afterDir="false" />
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Escape Room, additional UI">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/ControllerWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/ControllerConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/ControllerConsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/ERLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/ERLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/EventDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/EventDirector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +62,11 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Cwiczenia.Hunter" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Projekty\Java\Advanced_SDA\src\main\java\Cwiczenia\Snake" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Cwiczenia.EscapeRoom.Objects" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SnakeGame">
+  <component name="RunManager" selected="Application.ERLauncher">
     <configuration name="Cwiczenia.EscapeRoom.EscapeRoomDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -111,14 +112,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SnakeGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="LineDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Cwiczenia.Snake.SnakeGame" />
+      <option name="MAIN_CLASS_NAME" value="Extra.OOP.Zad5.LineDemo" />
       <module name="Advanced_SDA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Cwiczenia.Snake.*" />
+          <option name="PATTERN" value="Extra.OOP.Zad5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SnakeGame" />
         <item itemvalue="Application.ERLauncher" />
         <item itemvalue="Application.Tests" />
         <item itemvalue="Application.Cwiczenia.EscapeRoom.EscapeRoomDemo" />
         <item itemvalue="Application.Cwiczenia.HotelService.HotelServiceDemo" />
+        <item itemvalue="Application.LineDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -435,35 +436,7 @@
       <option name="project" value="LOCAL" />
       <updated>1658429360198</updated>
     </task>
-    <task id="LOCAL-00039" summary="Escape Room, updated description and launching method">
-      <created>1658509581131</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1658509581131</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Escape Room, removed background method">
-      <created>1658602808548</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1658602808548</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Guided simple snake game">
-      <created>1658602854889</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1658602854889</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Guided simple snake game">
-      <created>1658670038429</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1658670038429</updated>
-    </task>
-    <option name="localTasksCounter" value="43" />
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -478,6 +451,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Zadanie 2 dodano klasy Staff, Student oraz klasę PersonDemo" />
+    <MESSAGE value="Polimorfizm" />
+    <MESSAGE value="Citizens" />
     <MESSAGE value="Citizens poprawki" />
     <MESSAGE value="SDA Zad 5 Line" />
     <MESSAGE value="Gra w zbijaka (w trakcie pisania)" />
@@ -500,10 +476,7 @@
     <MESSAGE value="Escape Room, menu exceptions added, simplified choices" />
     <MESSAGE value="Escape Room, added conditions to Key and Door class, methods are returning Strings to Controller class now" />
     <MESSAGE value="Escape Room, additional UI" />
-    <MESSAGE value="Escape Room, updated description and launching method" />
-    <MESSAGE value="Escape Room, removed background method" />
-    <MESSAGE value="Guided simple snake game" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guided simple snake game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Escape Room, additional UI" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
