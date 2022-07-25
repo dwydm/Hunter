@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Escape Room, additional UI">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/ControllerWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien8/Restaurant/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien8/Restaurant/DishType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien8/Restaurant/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien8/SetyIMapy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/ControllerConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/ControllerConsole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/ERLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/ERLauncher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/EventDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/EscapeRoom/EventDirector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -29,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="EscapeExpand" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,6 +60,9 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Cwiczenia.Hunter" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="SDAKurs.Dzien8" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Cwiczenia.EscapeRoom.Objects" />
