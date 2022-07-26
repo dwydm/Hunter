@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Restaurant class setup">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien8/Restaurant/RestaurantException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien8/Restaurant/Task.txt" afterDir="false" />
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Restaurant task">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien9/SortingAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien9/SortingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien9/Task.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien9/Task19/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien9/Task19/TreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien9/Task20/Equation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien9/Task20/EquationDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien8/Restaurant/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien8/Restaurant/Dish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien8/Restaurant/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien8/Restaurant/Restaurant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -68,37 +71,7 @@
       <recent name="Cwiczenia.EscapeRoom.Objects" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ERLauncher">
-    <configuration name="Cwiczenia.EscapeRoom.EscapeRoomDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="18" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Cwiczenia.EscapeRoom.EscapeRoomDemo" />
-      <module name="Advanced_SDA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Cwiczenia.EscapeRoom.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Cwiczenia.HotelService.HotelServiceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="18" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Cwiczenia.HotelService.HotelServiceDemo" />
-      <module name="Advanced_SDA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Cwiczenia.HotelService.Hotel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.EquationDemo">
     <configuration name="ERLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -114,14 +87,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LineDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="EquationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Extra.OOP.Zad5.LineDemo" />
+      <option name="MAIN_CLASS_NAME" value="SDAKurs.Dzien9.Task20.EquationDemo" />
       <module name="Advanced_SDA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Extra.OOP.Zad5.*" />
+          <option name="PATTERN" value="SDAKurs.Dzien9.Task20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="SDAKurs.Dzien9.SortingDemo" />
+      <module name="Advanced_SDA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDAKurs.Dzien9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,6 +132,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="SDAKurs.Dzien9.Task19.TreeDemo" />
+      <module name="Advanced_SDA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDAKurs.Dzien9.Task19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -155,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EquationDemo" />
+        <item itemvalue="Application.TreeDemo" />
+        <item itemvalue="Application.SortingDemo" />
         <item itemvalue="Application.ERLauncher" />
         <item itemvalue="Application.Tests" />
-        <item itemvalue="Application.Cwiczenia.EscapeRoom.EscapeRoomDemo" />
-        <item itemvalue="Application.Cwiczenia.HotelService.HotelServiceDemo" />
-        <item itemvalue="Application.LineDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -445,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658776255358</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Restaurant task">
+      <created>1658850119925</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1658850119925</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -460,7 +470,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Polimorfizm" />
     <MESSAGE value="Citizens" />
     <MESSAGE value="Citizens poprawki" />
     <MESSAGE value="SDA Zad 5 Line" />
@@ -485,7 +494,8 @@
     <MESSAGE value="Escape Room, added conditions to Key and Door class, methods are returning Strings to Controller class now" />
     <MESSAGE value="Escape Room, additional UI" />
     <MESSAGE value="Restaurant class setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Restaurant class setup" />
+    <MESSAGE value="Restaurant task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restaurant task" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
