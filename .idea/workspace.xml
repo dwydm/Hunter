@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Escape Room, additional UI">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien8/Restaurant/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien8/Restaurant/DishType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien8/Restaurant/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien8/SetyIMapy.java" afterDir="false" />
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Restaurant class setup">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien8/Restaurant/RestaurantException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien8/Restaurant/Task.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien8/Restaurant/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien8/Restaurant/Dish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien8/Restaurant/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien8/Restaurant/Restaurant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -438,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658429360198</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Restaurant class setup">
+      <created>1658776255358</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1658776255358</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -453,7 +460,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Zadanie 2 dodano klasy Staff, Student oraz klasę PersonDemo" />
     <MESSAGE value="Polimorfizm" />
     <MESSAGE value="Citizens" />
     <MESSAGE value="Citizens poprawki" />
@@ -478,7 +484,8 @@
     <MESSAGE value="Escape Room, menu exceptions added, simplified choices" />
     <MESSAGE value="Escape Room, added conditions to Key and Door class, methods are returning Strings to Controller class now" />
     <MESSAGE value="Escape Room, additional UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Escape Room, additional UI" />
+    <MESSAGE value="Restaurant class setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restaurant class setup" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -25,6 +25,14 @@ public class Dish {
         return Double.compare(dish.price, price) == 0 && Double.compare(dish.calories, calories) == 0 && name.equals(dish.name) && type == dish.type;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public DishType getType() {
+        return type;
+    }
+
     @Override
     public int hashCode() {
         return Objects.hash(name, price, calories, type);
