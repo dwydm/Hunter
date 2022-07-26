@@ -1,4 +1,4 @@
-package SDAKurs.Dzien9;
+package SDAKurs.Dzien9.Sorting;
 
 import java.util.ArrayList;
 
@@ -18,9 +18,7 @@ public class SortingAlgorithm {
                     index = j;
                 }
             }
-            if (index == i) {
-                continue;
-            }
+
             list.set(index, list.get(i));
             list.set(i,min);
 

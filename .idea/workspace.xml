@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Anonymous class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien9/SortingAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien9/SortingAlgorithm.java" afterDir="false" />
-    </list>
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="SortingAlgorithm" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +62,7 @@
       <recent name="Cwiczenia.EscapeRoom.Objects" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortingDemo">
+  <component name="RunManager" selected="Application.SDAKurs.Dzien9.Sorting.SortingDemo">
     <configuration name="ERLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -99,11 +96,11 @@
     <configuration name="SortingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="SDAKurs.Dzien9.SortingDemo" />
+      <option name="MAIN_CLASS_NAME" value="SDAKurs.Dzien9.Sorting.SortingDemo" />
       <module name="Advanced_SDA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDAKurs.Dzien9.*" />
+          <option name="PATTERN" value="SDAKurs.Dzien9.Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,7 +149,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SortingDemo" />
+        <item itemvalue="Application.SDAKurs.Dzien9.Sorting.SortingDemo" />
         <item itemvalue="Application.EquationDemo" />
         <item itemvalue="Application.TreeDemo" />
         <item itemvalue="Application.ERLauncher" />
@@ -456,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658857365950</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="SortingAlgorithm">
+      <created>1658864812273</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1658864812273</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -471,7 +475,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Citizens poprawki" />
     <MESSAGE value="SDA Zad 5 Line" />
     <MESSAGE value="Gra w zbijaka (w trakcie pisania)" />
     <MESSAGE value="Interfejsy" />
@@ -496,7 +499,8 @@
     <MESSAGE value="Restaurant class setup" />
     <MESSAGE value="Restaurant task" />
     <MESSAGE value="Anonymous class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Anonymous class" />
+    <MESSAGE value="SortingAlgorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="SortingAlgorithm" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
