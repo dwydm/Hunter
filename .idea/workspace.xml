@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Moved sorting to package">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien9/Test/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien9/Test/GameDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien9/Test/User.java" afterDir="false" />
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Sorting">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/AccoundBuilder/AccountDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/AccoundBuilder/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien9/Sorting/SortingDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien9/Sorting/SortingDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDAKurs/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,18 +43,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/dwydm/Downloads/jacoco-0.8.8.zip",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dwydm/Downloads/jacoco-0.8.8.zip&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Cwiczenia.Hunter" />
@@ -70,15 +66,15 @@
       <recent name="Cwiczenia.EscapeRoom.Objects" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tests">
-    <configuration name="ERLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.AccountDemo">
+    <configuration name="AccountDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Cwiczenia.EscapeRoom.ERLauncher" />
+      <option name="MAIN_CLASS_NAME" value="Cwiczenia.AccoundBuilder.AccountDemo" />
       <module name="Advanced_SDA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Cwiczenia.EscapeRoom.*" />
+          <option name="PATTERN" value="Cwiczenia.AccoundBuilder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AccountDemo" />
         <item itemvalue="Application.Tests" />
         <item itemvalue="Application.SortingDemo" />
         <item itemvalue="Application.EquationDemo" />
         <item itemvalue="Application.TreeDemo" />
-        <item itemvalue="Application.ERLauncher" />
       </list>
     </recent_temporary>
   </component>
@@ -475,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658865107193</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Sorting">
+      <created>1659070616989</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1659070616989</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -490,7 +493,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Interfejsy" />
     <MESSAGE value="Wyjątki" />
     <MESSAGE value="Reorganizacja plików" />
     <MESSAGE value="porządki w klasie ExceptionsDemo" />
@@ -515,7 +517,8 @@
     <MESSAGE value="SortingAlgorithm" />
     <MESSAGE value="MOved sorting to package" />
     <MESSAGE value="Moved sorting to package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved sorting to package" />
+    <MESSAGE value="Sorting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sorting" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
