@@ -1,4 +1,4 @@
-package Cwiczenia.AccoundBuilder;
+package Cwiczenia.Wzorce.Builder;
 
 public class AccountDemo {
     public static void main(String[] args) {

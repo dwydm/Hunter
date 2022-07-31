@@ -1,4 +1,4 @@
-package Cwiczenia.AccoundBuilder;
+package Cwiczenia.Wzorce.Builder;
 
 public class User {
     private String name;
