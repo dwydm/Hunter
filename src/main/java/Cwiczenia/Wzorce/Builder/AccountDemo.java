@@ -1,7 +1,7 @@
 package Cwiczenia.Wzorce.Builder;
 
 public class AccountDemo {
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
 
         User user1 = new User.UserBuilder()
                 .buildName("John")

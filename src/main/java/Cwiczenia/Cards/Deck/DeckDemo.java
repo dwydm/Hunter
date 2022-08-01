@@ -1,8 +1,10 @@
-package Cwiczenia.Cards;
+package Cwiczenia.Cards.Deck;
+
+import Cwiczenia.Cards.Analyzer;
 
 import java.util.*;
 
-public class CardsDemo {
+public class DeckDemo {
     static List<Card> deckOfCards = new ArrayList<>();
     static Stack<Card> playingCards = new Stack<>();
     static Card[] hand = new Card[5];

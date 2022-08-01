@@ -1,5 +1,7 @@
 package Cwiczenia.Cards;
 
+import Cwiczenia.Cards.Deck.Card;
+
 public class Analyzer {
 
     public static Card displayHigherCard(Card... cards) {

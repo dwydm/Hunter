@@ -4,7 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Builder pattern" />
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Refactor, private repo update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/CardGameLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/Holdem/TexasHoldem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Flyweight/Destroyer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Flyweight/Rifleman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Flyweight/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Flyweight/WarPiece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Flyweight/WarPieceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Flyweight/WarPieceStats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Flyweight/WarPieceValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Observer/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Observer/Smartphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Observer/Weather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Observer/WeatherCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Observer/WeatherDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Observer/Webapp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Strategy/Citizen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Strategy/CitizenDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Strategy/Discountable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Strategy/DiscountedReceipt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Strategy/Receipt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/Analyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/Analyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/Deck/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/CardsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/Deck/DeckDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/Rank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/Deck/Rank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/Suit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/Deck/Suit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Builder/AccountDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Builder/AccountDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Builder/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Builder/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDAKurs/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Tests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -62,7 +94,7 @@
       <recent name="Cwiczenia.EscapeRoom.Objects" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AccountDemo">
+  <component name="RunManager" selected="Application.WarPieceDemo">
     <configuration name="AccountDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -78,14 +110,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EquationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="CitizenDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="SDAKurs.Dzien9.Task20.EquationDemo" />
+      <option name="MAIN_CLASS_NAME" value="Cwiczenia.Wzorce.Strategy.CitizenDemo" />
       <module name="Advanced_SDA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDAKurs.Dzien9.Task20.*" />
+          <option name="PATTERN" value="Cwiczenia.Wzorce.Strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,14 +125,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Cwiczenia.Wzorce.Builder.AccountDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="SDAKurs.Dzien9.Sorting.SortingDemo" />
+      <option name="MAIN_CLASS_NAME" value="Cwiczenia.Wzorce.Builder.AccountDemo" />
       <module name="Advanced_SDA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDAKurs.Dzien9.Sorting.*" />
+          <option name="PATTERN" value="Cwiczenia.Wzorce.Builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,14 +140,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="WarPieceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="SDAKurs.Tests" />
+      <option name="MAIN_CLASS_NAME" value="Cwiczenia.Wzorce.Flyweight.WarPieceDemo" />
       <module name="Advanced_SDA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDAKurs.*" />
+          <option name="PATTERN" value="Cwiczenia.Wzorce.Flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,14 +155,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="WeatherDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="SDAKurs.Dzien9.Task19.TreeDemo" />
+      <option name="MAIN_CLASS_NAME" value="Cwiczenia.Wzorce.Observer.WeatherDemo" />
       <module name="Advanced_SDA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDAKurs.Dzien9.Task19.*" />
+          <option name="PATTERN" value="Cwiczenia.Wzorce.Observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WarPieceDemo" />
+        <item itemvalue="Application.WeatherDemo" />
+        <item itemvalue="Application.CitizenDemo" />
+        <item itemvalue="Application.Cwiczenia.Wzorce.Builder.AccountDemo" />
         <item itemvalue="Application.AccountDemo" />
-        <item itemvalue="Application.Tests" />
-        <item itemvalue="Application.SortingDemo" />
-        <item itemvalue="Application.EquationDemo" />
-        <item itemvalue="Application.TreeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -481,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659206884656</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Refactor, private repo update">
+      <created>1659291382131</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1659291382131</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,7 +535,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Reorganizacja plików" />
     <MESSAGE value="porządki w klasie ExceptionsDemo" />
     <MESSAGE value="Update Hunter, generowanie tablicy i obiektów na Board" />
     <MESSAGE value="Update Hunter, Menu i Itemy Graczy" />
@@ -521,7 +559,8 @@
     <MESSAGE value="Moved sorting to package" />
     <MESSAGE value="Sorting" />
     <MESSAGE value="Builder pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Builder pattern" />
+    <MESSAGE value="Refactor, private repo update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor, private repo update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

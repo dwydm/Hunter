@@ -19,6 +19,7 @@ public class User {
         private String mail;
 
         public User build() {
+
             return new User(this);
         }
 
