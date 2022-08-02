@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Updated patterns">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Template/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Template/ComputerBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Template/EconomyComputer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Template/Part.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Template/Type.java" afterDir="false" />
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Template pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/AdvancedUnitFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/Alien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/AlienDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/BasicUnitFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/Marine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/Muton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/Psi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/Sectoid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/UnitFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,38 +51,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/dwydm/Downloads/jacoco-0.8.8.zip&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Projekty/Java/Advanced_SDA/src/main/java/Cwiczenia/Wzorce/Factory",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Cwiczenia.Hunter" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projekty\Java\Advanced_SDA\src\main\java\Cwiczenia\Wzorce\Factory" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="SDAKurs.Dzien8" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Cwiczenia.Wzorce.Factory" />
       <recent name="Cwiczenia.EscapeRoom.Objects" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WarPieceDemo">
-    <configuration name="AccountDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.AlienDemo">
+    <configuration name="AlienDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Cwiczenia.AccoundBuilder.AccountDemo" />
+      <option name="MAIN_CLASS_NAME" value="Cwiczenia.Wzorce.Factory.AlienDemo" />
       <module name="Advanced_SDA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Cwiczenia.AccoundBuilder.*" />
+          <option name="PATTERN" value="Cwiczenia.Wzorce.Factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AlienDemo" />
         <item itemvalue="Application.WarPieceDemo" />
         <item itemvalue="Application.WeatherDemo" />
         <item itemvalue="Application.CitizenDemo" />
         <item itemvalue="Application.Cwiczenia.Wzorce.Builder.AccountDemo" />
-        <item itemvalue="Application.AccountDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -502,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659381261140</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Template pattern">
+      <created>1659458973574</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1659458973574</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -517,7 +533,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update Hunter, generowanie tablicy i obiektów na Board" />
     <MESSAGE value="Update Hunter, Menu i Itemy Graczy" />
     <MESSAGE value="Update Hunter, wyświetlanie graczy i obiektów na mapie" />
     <MESSAGE value="Update Hunter, update tekstu" />
@@ -542,7 +557,8 @@
     <MESSAGE value="Builder pattern" />
     <MESSAGE value="Refactor, private repo update" />
     <MESSAGE value="Updated patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated patterns" />
+    <MESSAGE value="Template pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Template pattern" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
