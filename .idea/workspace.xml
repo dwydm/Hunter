@@ -4,38 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Refactor, private repo update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/CardGameLauncher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/Holdem/TexasHoldem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Flyweight/Destroyer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Flyweight/Rifleman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Flyweight/Tank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Flyweight/WarPiece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Flyweight/WarPieceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Flyweight/WarPieceStats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Flyweight/WarPieceValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Observer/Observable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Observer/Smartphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Observer/Weather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Observer/WeatherCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Observer/WeatherDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Observer/Webapp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Strategy/Citizen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Strategy/CitizenDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Strategy/Discountable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Strategy/DiscountedReceipt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Strategy/Receipt.java" afterDir="false" />
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Updated patterns">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Template/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Template/ComputerBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Template/EconomyComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Template/Part.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Template/Type.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/Analyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/Analyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/Deck/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/CardsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/Deck/DeckDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/Rank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/Deck/Rank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/Suit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Cards/Deck/Suit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Builder/AccountDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Builder/AccountDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Builder/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Builder/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDAKurs/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -520,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659291382131</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Updated patterns">
+      <created>1659381261140</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1659381261140</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -535,7 +517,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="porządki w klasie ExceptionsDemo" />
     <MESSAGE value="Update Hunter, generowanie tablicy i obiektów na Board" />
     <MESSAGE value="Update Hunter, Menu i Itemy Graczy" />
     <MESSAGE value="Update Hunter, wyświetlanie graczy i obiektów na mapie" />
@@ -560,7 +541,8 @@
     <MESSAGE value="Sorting" />
     <MESSAGE value="Builder pattern" />
     <MESSAGE value="Refactor, private repo update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor, private repo update" />
+    <MESSAGE value="Updated patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated patterns" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
