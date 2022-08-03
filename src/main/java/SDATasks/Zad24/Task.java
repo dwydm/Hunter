@@ -1,4 +1,4 @@
-package SDAKurs.Dzien10;
+package SDATasks.Zad24;
 
 public class Task implements Runnable{
     @Override

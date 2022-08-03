@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Factory pattern refactored">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien10/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien10/ThreadExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien10/ThreadTask.java" afterDir="false" />
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="thread examples">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/AlienFactoryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/AlienFactoryDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien10/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDATasks/Zad24/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien10/ThreadTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDATasks/Zad24/ThreadTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +71,7 @@
       <recent name="Cwiczenia.EscapeRoom.Objects" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadTask">
+  <component name="RunManager" selected="Application.SDATasks.Zad24.ThreadTask">
     <configuration name="AlienFactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -96,7 +94,7 @@
       <module name="Advanced_SDA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDAKurs.Dzien10.*" />
+          <option name="PATTERN" value="SDATasks.Zad24.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +105,11 @@
     <configuration name="ThreadTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="SDAKurs.Dzien10.ThreadTask" />
+      <option name="MAIN_CLASS_NAME" value="SDATasks.Zad24.ThreadTask" />
       <module name="Advanced_SDA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDAKurs.Dzien10.*" />
+          <option name="PATTERN" value="SDATasks.Zad24.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,8 +158,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadTask" />
-        <item itemvalue="Application.ThreadExample" />
+        <item itemvalue="Application.SDATasks.Zad24.ThreadTask" />
+        <item itemvalue="Application.SDAKurs.Dzien10.ThreadExample" />
         <item itemvalue="Application.AlienFactoryDemo" />
         <item itemvalue="Application.WarPieceDemo" />
         <item itemvalue="Application.WeatherDemo" />
@@ -176,13 +174,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656344607841</updated>
-    </task>
-    <task id="LOCAL-00002" summary="dodanie klas wprojekcie Dom">
-      <created>1656439277286</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1656439277286</updated>
     </task>
     <task id="LOCAL-00003" summary="dodane toString">
       <created>1656441395831</created>
@@ -520,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659528362967</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="thread examples">
+      <created>1659548210593</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1659548210594</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -535,7 +533,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update Hunter, update tekstu" />
     <MESSAGE value="Implementacja MyArrayList" />
     <MESSAGE value="Hunter, implemented player movement and win conditions" />
     <MESSAGE value="Hunter, implemented Computer logic nad movement" />
@@ -560,7 +557,8 @@
     <MESSAGE value="Template pattern" />
     <MESSAGE value="Factory pattern" />
     <MESSAGE value="Factory pattern refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="Factory pattern refactored" />
+    <MESSAGE value="thread examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="thread examples" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
