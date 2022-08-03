@@ -4,26 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Factory pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/ArmyBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/Units/Aliens/AlienType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/Units/Aliens/Aquatoid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/Units/Aliens/Gillman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/Units/Aliens/Lobsterman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/Units/Aliens/Tasoth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/Units/Humans/HumanType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/Units/Humans/Psi.java" afterDir="false" />
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="Factory pattern refactored">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien10/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien10/ThreadExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien10/ThreadTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/AdvancedUnitFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/Units/AdvancedUnitFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/Alien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/Units/Aliens/Alien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/AlienDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/AlienFactoryDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/BasicUnitFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/Units/BasicUnitFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/Units/Humans/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/Marine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/Units/Humans/Aquanaut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/Muton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/Psi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/Sectoid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/UnitFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/Units/UnitFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/AlienFactoryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cwiczenia/Wzorce/Factory/AlienFactoryDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +73,7 @@
       <recent name="Cwiczenia.EscapeRoom.Objects" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AlienFactoryDemo">
+  <component name="RunManager" selected="Application.ThreadTask">
     <configuration name="AlienFactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -103,14 +89,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CitizenDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Cwiczenia.Wzorce.Strategy.CitizenDemo" />
+      <option name="MAIN_CLASS_NAME" value="SDAKurs.Dzien10.ThreadExample" />
       <module name="Advanced_SDA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Cwiczenia.Wzorce.Strategy.*" />
+          <option name="PATTERN" value="SDAKurs.Dzien10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,14 +104,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cwiczenia.Wzorce.Builder.AccountDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Cwiczenia.Wzorce.Builder.AccountDemo" />
+      <option name="MAIN_CLASS_NAME" value="SDAKurs.Dzien10.ThreadTask" />
       <module name="Advanced_SDA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Cwiczenia.Wzorce.Builder.*" />
+          <option name="PATTERN" value="SDAKurs.Dzien10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadTask" />
+        <item itemvalue="Application.ThreadExample" />
         <item itemvalue="Application.AlienFactoryDemo" />
         <item itemvalue="Application.WarPieceDemo" />
         <item itemvalue="Application.WeatherDemo" />
-        <item itemvalue="Application.CitizenDemo" />
-        <item itemvalue="Application.Cwiczenia.Wzorce.Builder.AccountDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -190,13 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656344607841</updated>
-    </task>
-    <task id="LOCAL-00001" summary="new tasks and assignments">
-      <created>1656437356788</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1656437356788</updated>
     </task>
     <task id="LOCAL-00002" summary="dodanie klas wprojekcie Dom">
       <created>1656439277286</created>
@@ -534,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659463978187</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Factory pattern refactored">
+      <created>1659528362967</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1659528362967</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,7 +535,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update Hunter, wyświetlanie graczy i obiektów na mapie" />
     <MESSAGE value="Update Hunter, update tekstu" />
     <MESSAGE value="Implementacja MyArrayList" />
     <MESSAGE value="Hunter, implemented player movement and win conditions" />
@@ -574,7 +559,8 @@
     <MESSAGE value="Updated patterns" />
     <MESSAGE value="Template pattern" />
     <MESSAGE value="Factory pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Factory pattern" />
+    <MESSAGE value="Factory pattern refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="Factory pattern refactored" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
