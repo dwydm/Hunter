@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="thread task 25">
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="multithreading task 25, gitignore update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien10/CounterTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien11/CounterApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDATasks/Zad26/task.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDATasks/Zad25/ConcatenationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDATasks/Zad25/ConcatenationDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDATasks/Zad25/ConcatenationTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDATasks/Zad25/ConcatenationTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +73,7 @@
       <recent name="Cwiczenia.EscapeRoom.Objects" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConcatenationDemo">
+  <component name="RunManager" selected="Application.CounterApp">
     <configuration name="AlienFactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -103,14 +104,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="CounterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="SDAKurs.Dzien10.ThreadExample" />
+      <option name="MAIN_CLASS_NAME" value="SDAKurs.Dzien11.CounterApp" />
       <module name="Advanced_SDA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDATasks.Zad24.*" />
+          <option name="PATTERN" value="SDAKurs.Dzien11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,14 +119,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="CounterTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="SDATasks.Zad24.ThreadTask" />
+      <option name="MAIN_CLASS_NAME" value="SDAKurs.Dzien10.CounterTask" />
       <module name="Advanced_SDA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDATasks.Zad24.*" />
+          <option name="PATTERN" value="SDAKurs.Dzien10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,6 +160,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CounterApp" />
+        <item itemvalue="Application.CounterTask" />
         <item itemvalue="Application.ConcatenationDemo" />
         <item itemvalue="Application.AlienFactoryDemo" />
         <item itemvalue="Application.WarPieceDemo" />
@@ -173,13 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656344607841</updated>
-    </task>
-    <task id="LOCAL-00005" summary="rozbudowa zadania Dom o klasę Enum StanOkna, dodano getter do interakcji z listą okien">
-      <created>1656596570170</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1656596570170</updated>
     </task>
     <task id="LOCAL-00006" summary="dodano zadanie workshop">
       <created>1656655718600</created>
@@ -517,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659552211159</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="multithreading task 25, gitignore update">
+      <created>1659622958556</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1659622958556</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -532,7 +535,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Hunter, implemented player movement and win conditions" />
     <MESSAGE value="Hunter, implemented Computer logic nad movement" />
     <MESSAGE value="Hunter 1.0" />
     <MESSAGE value="Hotel Service, implemented random room and guest initialization" />
@@ -557,7 +559,8 @@
     <MESSAGE value="Factory pattern refactored" />
     <MESSAGE value="thread examples" />
     <MESSAGE value="thread task 25" />
-    <option name="LAST_COMMIT_MESSAGE" value="thread task 25" />
+    <MESSAGE value="multithreading task 25, gitignore update" />
+    <option name="LAST_COMMIT_MESSAGE" value="multithreading task 25, gitignore update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
