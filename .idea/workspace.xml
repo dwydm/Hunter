@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="multithreading task 25, gitignore update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien10/CounterTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien11/CounterApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDATasks/Zad26/task.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="JFrame lesson">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien11/Funkcyjne/Functions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDATasks/Zad21/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDATasks/Zad21/OperationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDATasks/Zad22/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDATasks/Zad22/PrinterDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien11/CounterApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDAKurs/Dzien11/Funkcyjne/CounterApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -73,52 +75,7 @@
       <recent name="Cwiczenia.EscapeRoom.Objects" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CounterApp">
-    <configuration name="AlienFactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="18" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Cwiczenia.Wzorce.Factory.AlienFactoryDemo" />
-      <module name="Advanced_SDA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Cwiczenia.Wzorce.Factory.Units.Aliens.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConcatenationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="18" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="SDATasks.Zad25.ConcatenationDemo" />
-      <module name="Advanced_SDA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SDATasks.Zad25.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CounterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="18" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="SDAKurs.Dzien11.CounterApp" />
-      <module name="Advanced_SDA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SDAKurs.Dzien11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PrinterDemo">
     <configuration name="CounterTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -134,14 +91,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WarPieceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Functions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Cwiczenia.Wzorce.Flyweight.WarPieceDemo" />
+      <option name="MAIN_CLASS_NAME" value="SDAKurs.Dzien11.Funkcyjne.Functions" />
       <module name="Advanced_SDA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Cwiczenia.Wzorce.Flyweight.*" />
+          <option name="PATTERN" value="SDAKurs.Dzien11.Funkcyjne.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="SDATasks.Zad21.OperationDemo" />
+      <module name="Advanced_SDA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDATasks.Zad21.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrinterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="SDATasks.Zad22.PrinterDemo" />
+      <module name="Advanced_SDA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDATasks.Zad22.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SDAKurs.Dzien11.Funkcyjne.CounterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="SDAKurs.Dzien11.Funkcyjne.CounterApp" />
+      <module name="Advanced_SDA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDAKurs.Dzien11.Funkcyjne.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CounterApp" />
+        <item itemvalue="Application.PrinterDemo" />
+        <item itemvalue="Application.OperationDemo" />
+        <item itemvalue="Application.Functions" />
+        <item itemvalue="Application.SDAKurs.Dzien11.Funkcyjne.CounterApp" />
         <item itemvalue="Application.CounterTask" />
-        <item itemvalue="Application.ConcatenationDemo" />
-        <item itemvalue="Application.AlienFactoryDemo" />
-        <item itemvalue="Application.WarPieceDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -176,13 +178,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656344607841</updated>
-    </task>
-    <task id="LOCAL-00006" summary="dodano zadanie workshop">
-      <created>1656655718600</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1656655718600</updated>
     </task>
     <task id="LOCAL-00007" summary="poprawione losowanie liczby uszkodzonych opon w klasie Car">
       <created>1656657280862</created>
@@ -520,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659622958556</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="JFrame lesson">
+      <created>1659630262250</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1659630262250</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -535,7 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Hunter, implemented Computer logic nad movement" />
     <MESSAGE value="Hunter 1.0" />
     <MESSAGE value="Hotel Service, implemented random room and guest initialization" />
     <MESSAGE value="Hotel Service" />
@@ -560,7 +561,8 @@
     <MESSAGE value="thread examples" />
     <MESSAGE value="thread task 25" />
     <MESSAGE value="multithreading task 25, gitignore update" />
-    <option name="LAST_COMMIT_MESSAGE" value="multithreading task 25, gitignore update" />
+    <MESSAGE value="JFrame lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="JFrame lesson" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

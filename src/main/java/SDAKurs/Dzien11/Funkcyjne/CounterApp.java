@@ -1,4 +1,4 @@
-package SDAKurs.Dzien11;
+package SDAKurs.Dzien11.Funkcyjne;
 
 import javax.swing.*;
 import java.awt.*;
