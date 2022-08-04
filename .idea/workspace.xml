@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="thread examples">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDATasks/Zad25/ConcatenationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDATasks/Zad25/ConcatenationTask.java" afterDir="false" />
+    <list default="true" id="5c225eaf-3d49-4c8f-b935-b73a35e2464a" name="Changes" comment="thread task 25">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDATasks/Zad25/ConcatenationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDATasks/Zad25/ConcatenationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDATasks/Zad25/ConcatenationTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDATasks/Zad25/ConcatenationTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,8 +160,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ConcatenationDemo" />
-        <item itemvalue="Application.SDATasks.Zad24.ThreadTask" />
-        <item itemvalue="Application.SDAKurs.Dzien10.ThreadExample" />
         <item itemvalue="Application.AlienFactoryDemo" />
         <item itemvalue="Application.WarPieceDemo" />
       </list>
@@ -174,13 +173,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656344607841</updated>
-    </task>
-    <task id="LOCAL-00004" summary="poprawki w klasie Linia i FabrykaLinii, FabrykaLinii zwraca teraz obiekt Linia">
-      <created>1656592436871</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1656592436871</updated>
     </task>
     <task id="LOCAL-00005" summary="rozbudowa zadania Dom o klasę Enum StanOkna, dodano getter do interakcji z listą okien">
       <created>1656596570170</created>
@@ -518,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659548349047</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="thread task 25">
+      <created>1659552211159</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1659552211159</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -533,7 +532,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implementacja MyArrayList" />
     <MESSAGE value="Hunter, implemented player movement and win conditions" />
     <MESSAGE value="Hunter, implemented Computer logic nad movement" />
     <MESSAGE value="Hunter 1.0" />
@@ -558,7 +556,8 @@
     <MESSAGE value="Factory pattern" />
     <MESSAGE value="Factory pattern refactored" />
     <MESSAGE value="thread examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="thread examples" />
+    <MESSAGE value="thread task 25" />
+    <option name="LAST_COMMIT_MESSAGE" value="thread task 25" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
