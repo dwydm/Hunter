@@ -2,7 +2,6 @@ package SDATasks.Zad23;
 
 import java.util.Comparator;
 import java.util.Random;
-import java.util.function.Consumer;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 
@@ -37,4 +36,5 @@ public class Operations23 {
 
 
     }
+
 }
