@@ -1,6 +1,7 @@
 package SDATasks.Zad31;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,5 +25,10 @@ public class Person {
 
     public List<Pet> getPets() {
         return pets;
+    }
+
+    public int getAge() {
+        LocalDate localDate = LocalDate.now();
+        return localDate.getYear() - birthDay.getYear();
     }
 }
