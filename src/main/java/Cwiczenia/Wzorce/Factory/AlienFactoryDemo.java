@@ -15,16 +15,6 @@ public class AlienFactoryDemo {
     public static void main(String[] args) {
 
         startMenu();
-//        UnitFactory basic = new BasicUnitFactory();
-//        UnitFactory advanced = new AdvancedUnitFactory();
-//
-//        System.out.println(basic.createHuman("marine"));
-//        basic.createAlien("muton");
-//
-//        advanced.createHuman("psi");
-//        advanced.createAlien("muton");
-//        advanced.createAlien("sectoid");
-
     }
 
     private static void startMenu() {
@@ -50,6 +40,22 @@ public class AlienFactoryDemo {
     }
 
     private static void startBattle(){
+        int smallerArmyCount = Math.min(humans.size(), aliens.size());
+        boolean areBothArmiesAlive = true;
+
+        do {
+            //porównanie pierwszych jednostek
+            //oddawanie strzału
+            //usuwanie martwych jednostek z listy
+
+            if(humans.size() == 0) {
+                System.out.println("Aliens are victorious");
+                areBothArmiesAlive = false;
+            } else if(aliens.size() == 0) {
+                System.out.println("Humans are victorious");
+                areBothArmiesAlive = false;
+            }
+        }while (areBothArmiesAlive);
 
 
     }
