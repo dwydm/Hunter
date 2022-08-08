@@ -7,7 +7,6 @@ import java.util.stream.Collectors;
 public class MyStreamService implements StreamService{
     @Override
     public void sortAndPrint(List<String> names) {
-
         names.stream()
                 .sorted()
                 .forEach(System.out::println);
@@ -16,19 +15,16 @@ public class MyStreamService implements StreamService{
 
     @Override
     public int distinctAndCountNumbers(int[] numbers) {
-        int result = Arrays.stream(numbers)
+        return Arrays.stream(numbers)
                 .distinct()
                 .sum();
-
-        return result;
     }
 
     @Override
     public List<String> computeMaleNames(List<String> names) {
-        List<String> femaleNames = names.stream()
+        return names.stream()
                 .filter((name) -> name.endsWith("a"))
                 .collect(Collectors.toList());
-        return femaleNames;
     }
 
     @Override
@@ -42,10 +38,9 @@ public class MyStreamService implements StreamService{
 
     @Override
     public List<Integer> computeNamesLength(List<String> names) {
-        List<Integer> nameLengths = names.stream()
+        return names.stream()
                 .map(name -> name.length())
                 .collect(Collectors.toList());
-        return nameLengths;
     }
 
     @Override
