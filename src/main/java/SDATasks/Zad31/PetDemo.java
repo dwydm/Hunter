@@ -1,5 +1,6 @@
 package SDATasks.Zad31;
 
+import java.awt.event.ActionListener;
 import java.time.LocalDate;
 import java.time.Month;
 import java.util.*;
@@ -57,4 +58,5 @@ public class PetDemo {
                 .sum() / people.stream()
                 .count());
     }
+
 }
