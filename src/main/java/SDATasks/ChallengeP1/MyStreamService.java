@@ -45,7 +45,9 @@ public class MyStreamService implements StreamService{
 
     @Override
     public List<Person> buildPeopleWithNames(List<String> names) {
-        return null;
+        return names.stream()
+                .map(name -> new MyPerson(name))
+                .collect(Collectors.toList());
     }
 
     @Override

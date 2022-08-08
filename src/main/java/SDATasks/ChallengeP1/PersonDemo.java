@@ -23,6 +23,9 @@ public class PersonDemo {
         //streamService.printNumbersOfRange(primeNumbers,40,60);
         //System.out.println(streamService.computeNamesLength(names));
 
+        List<Person> persons = streamService.buildPeopleWithNames(names);
+        persons.stream().forEach(System.out::println);
+
         //List<Person> people = streamService.buildPeopleWithNames(names);
         //od tego momentu wykorzystuj również zbiór people do testu metod wykorzystujących argument List<Person>
 
