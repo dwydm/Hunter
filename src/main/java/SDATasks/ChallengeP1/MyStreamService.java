@@ -1,6 +1,7 @@
 package SDATasks.ChallengeP1;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -52,26 +53,40 @@ public class MyStreamService implements StreamService{
 
     @Override
     public List<Person> findPeopleOfIdGreaterThan(List<Person> people, int id) {
-        return null;
+        return people.stream()
+                .filter(person -> person.getId() > id)
+                .collect(Collectors.toList());
     }
 
     @Override
     public boolean hasSenior(List<Person> people) {
-        return false;
+        return people.stream()
+                .map(person -> person.getAge())
+                .anyMatch(age -> age >= 60);
     }
 
     @Override
     public double sumTotalCash(List<Person> people) {
-        return 0;
+        return people.stream()
+                .mapToDouble(person -> person.getCash())
+                .sum();
     }
 
     @Override
     public Person findRichestPerson(List<Person> people) {
-        return null;
+        return people.stream()
+                .sorted(Comparator.comparingDouble(Person::getCash).reversed())
+                .findFirst()
+                .get();
     }
 
     @Override
     public double computeAverageAge(List<Person> people) {
-        return 0;
+        if(people.size() == 0) {
+            return -1;
+        }
+        return people.stream()
+                .mapToInt(person -> person.getAge())
+                .sum() / people.size();
     }
 }
