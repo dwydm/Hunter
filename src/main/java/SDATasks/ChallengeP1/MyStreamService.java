@@ -24,7 +24,7 @@ public class MyStreamService implements StreamService{
     @Override
     public List<String> computeMaleNames(List<String> names) {
         return names.stream()
-                .filter((name) -> name.endsWith("a"))
+                .filter((name) -> !name.endsWith("a"))
                 .collect(Collectors.toList());
     }
 

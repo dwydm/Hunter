@@ -23,20 +23,19 @@ public class PersonDemo {
         //streamService.printNumbersOfRange(primeNumbers,40,60);
         //System.out.println(streamService.computeNamesLength(names));
 
-
         //od tego momentu wykorzystuj również zbiór people do testu metod wykorzystujących argument List<Person>
         List<Person> persons = streamService.buildPeopleWithNames(names);
-        persons.stream().forEach(System.out::println);
+        persons.forEach(System.out::println);
 
-        //List<Person> personById = streamService.findPeopleOfIdGreaterThan(persons,3);
-        //System.out.println(personById);
+/*        List<Person> personsOfIdRange = streamService.findPeopleOfIdGreaterThan(persons,3);
+        System.out.println(personsOfIdRange);*/
 
         //System.out.println(streamService.hasSenior(persons));
 
         //System.out.println(streamService.sumTotalCash(persons));
 
-        //List<Person> people = streamService.buildPeopleWithNames(names);
         //System.out.println(streamService.findRichestPerson(persons));
+
         //System.out.println(streamService.computeAverageAge(persons));
     }
 
