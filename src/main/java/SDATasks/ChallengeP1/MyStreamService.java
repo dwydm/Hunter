@@ -51,6 +51,13 @@ public class MyStreamService implements StreamService{
                 .collect(Collectors.toList());
     }
 
+/*    @Override
+    public List<? extends Person> buildPeopleWithNames(List<String> names) {    //alternatywne rozwiązanie z wykorzystaniem toList();
+        return names.stream()
+                .map(name -> new MyPerson(name))
+                .toList();
+    }*/
+
     @Override
     public List<Person> findPeopleOfIdGreaterThan(List<Person> people, int id) {
         return people.stream()
