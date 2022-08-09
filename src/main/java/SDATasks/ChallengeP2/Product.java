@@ -20,6 +20,22 @@ public class Product {
         this.country = country;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public int getAmount() {
+        return amount;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public Country getCountry() {
+        return country;
+    }
+
     @Override
     public String toString() {
         return "Product{" +

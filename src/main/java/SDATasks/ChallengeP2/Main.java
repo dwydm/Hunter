@@ -29,6 +29,22 @@ public class Main {
 
         //shop.displayCustomersNames();
 
+        //shop.displayAverageCustomerAge();
+
+/*        List<Customer> customersWithOrders = shop.getCustomersWithOrders();
+        customersWithOrders.forEach(customerWithOrder -> System.out.println(customerWithOrder.getName()));*/
+
+/*        List<Customer> adultCustomers = shop.getSortedAdultCustomers();
+        adultCustomers.forEach(adultCustomer -> System.out.println(adultCustomer.getName() + " " + adultCustomer.getAge()));*/
+
+/*        List<Order> weekOldOrders = shop.getUpToWeekOldOrders();
+        weekOldOrders.forEach(orderTime -> System.out.println(orderTime.getOrderTime()));*/
+
+        //System.out.println(shop.getAverageNumberOfOrders());
+
+        //System.out.println(shop.getAveragePriceOfAllOrders());
+
+
 
 
     }

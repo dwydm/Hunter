@@ -14,6 +14,14 @@ public class Order {
         this.products = products;
     }
 
+    public LocalDateTime getOrderTime() {
+        return orderTime;
+    }
+
+    public List<Product> getProducts() {
+        return products;
+    }
+
     @Override
     public String toString() {
         return "Order{" +
