@@ -5,6 +5,7 @@ import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 public class Shop {
@@ -35,13 +36,37 @@ public class Shop {
         return null;
     }
 //zwróć zamówienia nie starsze niż tydzień
+    public List<Order> getUpToWeekOldOrders() {
+        return null;
+    }
 //zwróć średnią ilość produktów w zamówieniach
+    public double getAverageNumberOfOrders() {
+        return 0.0;
+    }
 //zwróć średnią cenę produktów ze wszystkich zamówień
+    public double getAveragePriceOfAllOrders() {
+        return 0.0;
+    }
 //zwróć customera, który złożył wydał najwięcej
-//zwróć produkt którego mamy najmniej (wg. amound)
+    public Customer getCustomerWithHighestOrder() {
+        return null;
+    }
+//zwróć produkt którego mamy najmniej (wg. amount)
+    public Product getProductWithLowestCount() {
+        return null;
+    }
 //zwróć wszystkie produkty zamówione później niż tydzień temu
+    public List<Product> getProductsOrderedOverWeekAgo() {
+        return null;
+    }
 
 //trudne:
 //zwróć mapę której kluczem będzie numer miesiąca a wartością ilość customerów urodzonych w danym miesiącu
+    public Map<Integer,Integer> getTotalCustomerBirdthMonthCount() {
+        return null;
+    }
 //zwróć mapę zawierającą kraj oraz ilość produktów pochodzących z tego kraju
+    public Map<Country,Integer> getProductCountByCountry() {
+        return null;
+    }
 }
