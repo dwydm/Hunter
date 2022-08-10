@@ -9,7 +9,9 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
+import java.util.function.ToDoubleFunction;
 import java.util.stream.Collectors;
+import java.util.stream.DoubleStream;
 
 public class Shop {
     private List<Customer> customers;
@@ -83,7 +85,17 @@ public class Shop {
 
     //zwróć customera, który wydał najwięcej
     public Customer getCustomerWithHighestOrder() {
-        return null;
+        return customers.stream()
+                .sorted(Comparator.comparingDouble(this::sumUpCustomersOrder).reversed())
+                .findFirst()
+                .orElse(null);
+    }
+
+    private Double sumUpCustomersOrder(Customer customer) { //metoda pomocnicza
+        return customer.getOrders().stream()
+                .flatMap(order -> order.getProducts().stream())
+                .mapToDouble(product -> product.getPrice())
+                .sum();
     }
 
     //zwróć produkt którego mamy najmniej (wg. amount)

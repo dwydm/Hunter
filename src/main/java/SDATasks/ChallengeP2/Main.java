@@ -44,7 +44,7 @@ public class Main {
 
         //System.out.println(shop.getAveragePriceOfAllOrders());
 
-
+        //System.out.println(shop.getCustomerWithHighestOrder().getName());
 
 
     }
