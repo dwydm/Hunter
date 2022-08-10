@@ -46,6 +46,10 @@ public class Main {
 
         //System.out.println(shop.getCustomerWithHighestOrder().getName());
 
+        //System.out.println(shop.getProductWithLowestCount());
+
+        //shop.getProductsOrderedOverWeekAgo().stream().forEach(product -> System.out.println(product.getName()));
+
 
     }
 }

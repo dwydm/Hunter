@@ -5,13 +5,16 @@ import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class Order {
     private List<Product> products;
-    private LocalDateTime orderTime = LocalDateTime.now();
+    private static Random rnd = new Random();
+    private LocalDateTime orderTime;
 
     public Order(List<Product> products) {
         this.products = products;
+        orderTime = LocalDateTime.now().minusDays(rnd.nextInt(15));
     }
 
     public LocalDateTime getOrderTime() {

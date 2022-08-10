@@ -2,6 +2,7 @@ package SDATasks.ChallengeP2;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.Month;
 import java.time.chrono.ChronoLocalDate;
 import java.time.chrono.ChronoLocalDateTime;
 import java.time.temporal.ChronoUnit;
@@ -100,18 +101,31 @@ public class Shop {
 
     //zwróć produkt którego mamy najmniej (wg. amount)
     public Product getProductWithLowestCount() {
-        return null;
+        return customers.stream()
+                .flatMap(customer -> customer.getOrders().stream())
+                .flatMap(order -> order.getProducts().stream())
+                .sorted((product1, product2) -> product1.getAmount() - product2.getAmount())
+                .findFirst()
+                .orElse(null);
     }
 
     //zwróć wszystkie produkty zamówione później niż tydzień temu
     public List<Product> getProductsOrderedOverWeekAgo() {
-        return null;
+        return customers.stream()
+                .flatMap(customer -> customer.getOrders().stream())
+                .filter(order -> order.getOrderTime().isBefore(LocalDateTime.now().minusDays(7)))
+                .flatMap(order -> order.getProducts().stream())
+                //.distinct()
+                .collect(Collectors.toList());
     }
 
     //trudne:
 //zwróć mapę której kluczem będzie numer miesiąca a wartością ilość customerów urodzonych w danym miesiącu
     public Map<Integer, Integer> getTotalCustomerBirdthMonthCount() {
-        return null;
+        return null; /*customers.stream()
+                .collect(Collectors.toMap(Month.values(),customers.stream()
+                        .map(customer -> customer.getBirthday().getMonth().getValue())
+                        .filter(month -> )));*/
     }
 
     //zwróć mapę zawierającą kraj oraz ilość produktów pochodzących z tego kraju
