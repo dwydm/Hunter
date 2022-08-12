@@ -10,9 +10,11 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
+import java.util.function.Function;
 import java.util.function.ToDoubleFunction;
 import java.util.stream.Collectors;
 import java.util.stream.DoubleStream;
+import java.util.stream.IntStream;
 
 public class Shop {
     private List<Customer> customers;
@@ -121,12 +123,11 @@ public class Shop {
 
     //trudne:
 //zwróć mapę której kluczem będzie numer miesiąca a wartością ilość customerów urodzonych w danym miesiącu
-    public Map<Integer, Integer> getTotalCustomerBirdthMonthCount() {
-        return null; /*customers.stream()
-                .collect(Collectors.toMap(Month.values(),customers.stream()
-                        .map(customer -> customer.getBirthday().getMonth().getValue())
-                        .filter(month -> )));*/
-    }
+/*    public Map<Integer, Integer> getTotalCustomerBirdthMonthCount() {
+        return null;
+        customers.stream()
+                .collect(Collectors.toMap(Collectors.groupingBy(customers.stream().flatMap(cu))));
+    }*/
 
     //zwróć mapę zawierającą kraj oraz ilość produktów pochodzących z tego kraju
     public Map<Country, Integer> getProductCountByCountry() {
