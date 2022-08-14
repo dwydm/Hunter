@@ -1,5 +1,6 @@
 package SDATasks.Zad32io;
 
+import java.io.IOException;
 import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +11,10 @@ public class ProductDemo {
         fillProductList();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+
+         ProductFetcher pf = new ProductFetcher();
+         pf.saveProductListInFile(productList);
 
 
     }
