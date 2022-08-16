@@ -8,18 +8,19 @@ public class ProductFetcher {
     private final static String FILE_PATH = "src\\main\\java\\SDATasks\\Zad32io\\Products.csv";
 
     public void saveProductListInFile(List<Product> products) {
-        try {
-            ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(FILE_PATH));
-            oos.writeObject(products);
-            oos.flush();
-/*            products.stream().forEach(product -> {
+
+        try (FileOutputStream fis =new FileOutputStream(FILE_PATH); //try catch with resources
+        ObjectOutputStream oos = new ObjectOutputStream(fis)){
+            //ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(FILE_PATH));
+
+            products.stream().forEach(product -> {
                 try {
                     oos.writeObject(product);
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 }
-            });*/
-            oos.close();
+            });
+            oos.flush();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -29,8 +30,16 @@ public class ProductFetcher {
 
         try {
             ObjectInputStream ois = new ObjectInputStream(new FileInputStream(FILE_PATH));
-            List<Product> products = (List<Product>) ois.readObject();
-            ois.close();
+            List<Product> products = new ArrayList<>();
+
+            while (true) {
+                try {
+                    products.add((Product) ois.readObject());
+                } catch (EOFException e) {
+                    break;
+                }
+            }
+                ois.close();
             return products;
             //return  (List<Product>) ois.readObject();
 
