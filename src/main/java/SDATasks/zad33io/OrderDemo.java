@@ -1,6 +1,9 @@
 package SDATasks.zad33io;
 
 import SDATasks.Zad32io.Product;
+import SDATasks.zad33io.serializator.OrderLoader;
+import SDATasks.zad33io.serializator.OrderSaver;
+import SDATasks.zad33io.serializator.Serializator;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -16,14 +19,14 @@ public class OrderDemo {
         List<Product> productList1 = new ArrayList<>(Arrays.asList(p1,p2));
         List<Product> productList2 = new ArrayList<>(Arrays.asList(p3,p4));
 
-        Order order1 = new Order("T1", productList1);
-        Order order2 = new Order("T2", productList2);
+        Order order1 = new Order("Bob", productList1);
+        Order order2 = new Order("Kate", productList2);
+        Serializator<Order> srlz = new Serializator<>();
 
-        OrderSaver os = new OrderSaver();
-        OrderLoader ol = new OrderLoader();
-        os.saveOrder(new ArrayList<>(Arrays.asList(order1,order2)));
+        srlz.saveOrder(new ArrayList<>(Arrays.asList(order1,order2)));
 
-        ol.orderLoader().stream().forEach(System.out::println);
+        List<Order> orderList = srlz.loadOrder();
+        orderList.forEach(System.out::println);
 
     }
 }
