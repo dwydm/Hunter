@@ -33,14 +33,14 @@ public class RecapOne {
         //findEmployeeWithStreams();                                                                 //task 7
         //sortEmployeeList();                                                                        //task 8
         //findTopSalary();                                                                           //task 9
-        Basket basket = new Basket();                                                       // Task 10,11,12
+        Basket basket = new Basket();                                                              //task 10,11,12
         basket.checkPrice();
         basket.addNewProduct(11.11, LocalDate.of(2022,9,1), 300);
         basket.displayAvailability();
         basket.decreaseProductCount(5,201);
         basket.displayProductCount();
 
-        OrderService orderService = new OrderService();
+        OrderService orderService = new OrderService();                                            //task 13
         orderService.sumBasketValue(basket);
 
 
