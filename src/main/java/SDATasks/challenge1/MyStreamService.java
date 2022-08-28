@@ -1,4 +1,4 @@
-package SDATasks.ChallengeP1;
+package SDATasks.challenge1;
 
 import java.util.Arrays;
 import java.util.Comparator;

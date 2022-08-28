@@ -1,4 +1,4 @@
-package SDATasks.ChallengeP2;
+package SDATasks.challenge2;
 
 enum Country {
     POLAND,

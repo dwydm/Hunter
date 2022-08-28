@@ -12,6 +12,7 @@ public class TexasHoldem {
     private int[] playerBlindBetIndex = new int[2];
     private ArrayList<Player> playersList;
     private final int MAX_BLIND_BET = 50;
+    private final int MIN_BLIND_BET = MAX_BLIND_BET/2;
     private int chipsInRound = 0;
 
 
