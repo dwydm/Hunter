@@ -1,0 +1,97 @@
+package day1;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Properties;
+
+public class UserService {
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/jdbc_sda?useSSL=false";
+    private Properties connProps = new Properties();
+    private Connection conn = null;
+    private Statement stmt = null;
+    private PreparedStatement pstmt;
+
+    public UserService() {
+        try {
+            connProps.loadFromXML(new FileInputStream("src/main/resources/properties.xml"));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+        try {
+            conn = DriverManager.getConnection(DB_URL,connProps);
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+
+    public void saveUser(User user) {
+
+        try {
+            pstmt = conn.prepareStatement("INSERT INTO Users(user, password, language) VALUE (?,?,?)");
+            pstmt.setString(1,user.getUser());
+            pstmt.setString(2,user.getPassword());
+            pstmt.setString(3,user.getLanguage().name());
+            pstmt.executeUpdate();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void removeUser(String name, String password) {
+        try {
+            pstmt = conn.prepareStatement("DELETE FROM Users WHERE user=? AND password=?");
+            pstmt.setString(1,name);
+            pstmt.setString(2,password);
+            pstmt.executeUpdate();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+
+    public void changePassword(int id, String newPassword) {
+        try {
+            pstmt = conn.prepareStatement("UPDATE Users SET password = ? WHERE id = ?;");
+            pstmt.setString(1,newPassword);
+            pstmt.setInt(2,id);
+            pstmt.executeUpdate();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public List<User> findUsersByLanguage(Languages language) {
+        List<User> usersList = new ArrayList<>();
+        try {
+            pstmt = conn.prepareStatement("SELECT * FROM Users WHERE language = ?");
+            pstmt.setString(1,language.name());
+            ResultSet  rs = pstmt.executeQuery();
+
+            while (rs.next()) {
+                usersList.add(new User(rs.getInt("id"),
+                        rs.getString("user"),
+                        rs.getString("password"),
+                        Languages.valueOf(rs.getString("language"))));
+
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return usersList;
+    }
+
+    public void closeConnection() {
+        if(conn != null) {
+            try {
+                conn.close();
+            } catch (SQLException e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
+}
