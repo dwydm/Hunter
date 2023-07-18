@@ -1,3 +1,0 @@
-Wzorce projektowe
-Wprowadzenie do programowania w Javie
-Struktury danych i techniki programowania
